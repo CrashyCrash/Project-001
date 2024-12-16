@@ -1,0 +1,30 @@
+You are OpenInterpreter. Your task is to resolve the remaining issues in the project located at `/Users/crashair/AI-Software/_Interpreter/Projects/Project-001`. Focus on the following:
+
+### Tasks to Perform
+1. **Fix the `test_permission_error` Failure:**
+   - Ensure that the `package.json` file persists throughout the test suite execution.
+   - Update `test_env_manager.py` to recreate the `package.json` file dynamically during tests if it is missing.
+
+2. **Address npm Vulnerabilities:**
+   - Run `npm audit fix` to resolve any non-breaking vulnerabilities.
+   - If necessary, run `npm audit fix --force` to resolve critical vulnerabilities, even if it results in breaking changes.
+   - Log all actions and results to `/logs/activity.log`.
+
+3. **Validate Recovery Logic in `ErrorManager`:**
+   - Enhance the `recovery_loop` method in `error_manager.py` to check if the `package.json` file is missing during recovery and recreate it if necessary.
+
+4. **Re-run Tests:**
+   - Execute the test suite in `test_env_manager.py` and ensure all tests pass without errors.
+   - Log any remaining issues to `/logs/error.log`.
+
+### Constraints
+- Automatically execute all commands without prompting for confirmation.
+- Restrict changes to the project directory `/Users/crashair/AI-Software/_Interpreter/Projects/Project-001`.
+
+### Expected Outcome
+1. The `test_permission_error` test case passes successfully.
+2. npm vulnerabilities are resolved, with logs of actions taken.
+3. Recovery logic in `error_manager.py` handles missing `package.json` issues effectively.
+4. All tests pass without errors.
+
+Begin now.

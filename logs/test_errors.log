@@ -1,0 +1,541 @@
+Modules preloaded for Open Interpreter. 🚀
+
+up to date, audited 1 package in 254ms
+
+found 0 vulnerabilities
+Modules preloaded for Open Interpreter. 🚀
+
+up to date, audited 1 package in 92ms
+
+found 0 vulnerabilities
+Modules preloaded for Open Interpreter. 🚀
+
+up to date, audited 1 package in 92ms
+
+found 0 vulnerabilities
+Modules preloaded for Open Interpreter. 🚀
+
+2024-12-16 12:25:25.898 | INFO     | error_manager:recovery_loop:49 - Attempting command: <function TestEnvironmentManager.test_corrupted_package_json.<locals>.<lambda> at 0x103a32840>
+node:internal/modules/package_json_reader:145
+  const result = modulesBinding.getNearestParentPackageJSON(checkPath);
+                                ^
+
+Error: Invalid package config /Users/crashair/AI-Software/_Interpreter/Projects/Project-001/package.json.
+[90m    at Object.getNearestParentPackageJSON (node:internal/modules/package_json_reader:145:33)[39m
+[90m    at trySelf (node:internal/modules/cjs/loader:591:33)[39m
+[90m    at Function._resolveFilename (node:internal/modules/cjs/loader:1218:24)[39m
+[90m    at Function._load (node:internal/modules/cjs/loader:1066:27)[39m
+[90m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[90m    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)[39m
+[90m    at Module.require (node:internal/modules/cjs/loader:1327:12)[39m
+[90m    at node:internal/modules/cjs/loader:1853:12[39m
+[90m    at loadPreloadModules (node:internal/process/pre_execution:637:5)[39m
+[90m    at setupUserModules (node:internal/process/pre_execution:170:5)[39m {
+  code: [32m'ERR_INVALID_PACKAGE_CONFIG'[39m
+}
+
+Node.js v23.4.0
+2024-12-16 12:25:25.940 | ERROR    | error_manager:recovery_loop:54 - Subprocess failed with error: Command '['npm', 'install']' returned non-zero exit status 1.
+2024-12-16 12:25:25.941 | ERROR    | error_manager:log_error:28 - Command '['npm', 'install']' returned non-zero exit status 1.
+2024-12-16 12:25:25.941 | INFO     | error_manager:recovery_loop:56 - Attempt 1 of 3 failed. Applying recovery steps.
+2024-12-16 12:25:25.941 | DEBUG    | error_manager:recovery_loop:61 - Executing recovery step: <function TestEnvironmentManager.test_corrupted_package_json.<locals>.<lambda> at 0x10389afc0>
+/Users/crashair/AI-Software/_Interpreter/Projects/Project-001/test_env_manager.py:59: ResourceWarning: unclosed file <_io.TextIOWrapper name='/Users/crashair/AI-Software/_Interpreter/Projects/Project-001/package.json' mode='w' encoding='UTF-8'>
+  lambda: open(self.package_json, "w").write("{}"),
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+2024-12-16 12:25:25.942 | DEBUG    | error_manager:recovery_loop:61 - Executing recovery step: <function TestEnvironmentManager.test_corrupted_package_json.<locals>.<lambda> at 0x103a327a0>
+2024-12-16 12:25:28.335 | INFO     | error_manager:recovery_loop:49 - Attempting command: <function TestEnvironmentManager.test_corrupted_package_json.<locals>.<lambda> at 0x103a32840>
+2024-12-16 12:25:28.540 | INFO     | error_manager:recovery_loop:51 - Command succeeded.
+.2024-12-16 12:25:28.544 | INFO     | error_manager:recovery_loop:49 - Attempting command: <function TestEnvironmentManager.test_failed_npm_install.<locals>.<lambda> at 0x103a32ac0>
+2024-12-16 12:25:28.720 | INFO     | error_manager:recovery_loop:51 - Command succeeded.
+.2024-12-16 12:25:28.723 | INFO     | error_manager:recovery_loop:49 - Attempting command: <function TestEnvironmentManager.test_missing_package_json.<locals>.<lambda> at 0x103a4dbc0>
+npm error code ENOENT
+npm error syscall open
+npm error path /Users/crashair/AI-Software/_Interpreter/Projects/Project-001/package.json
+npm error errno -2
+npm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/Users/crashair/AI-Software/_Interpreter/Projects/Project-001/package.json'
+npm error enoent This is related to npm not being able to find a file.
+npm error enoent
+npm error A complete log of this run can be found in: /Users/crashair/.npm/_logs/2024-12-16T17_25_28_805Z-debug-0.log
+2024-12-16 12:25:28.901 | ERROR    | error_manager:recovery_loop:54 - Subprocess failed with error: Command '['npm', 'install']' returned non-zero exit status 254.
+2024-12-16 12:25:28.901 | ERROR    | error_manager:log_error:28 - Command '['npm', 'install']' returned non-zero exit status 254.
+2024-12-16 12:25:28.901 | INFO     | error_manager:recovery_loop:56 - Attempt 1 of 3 failed. Applying recovery steps.
+2024-12-16 12:25:28.901 | DEBUG    | error_manager:recovery_loop:61 - Executing recovery step: <function TestEnvironmentManager.test_missing_package_json.<locals>.<lambda> at 0x103a327a0>
+2024-12-16 12:25:28.901 | DEBUG    | error_manager:recovery_loop:61 - Executing recovery step: <function TestEnvironmentManager.test_missing_package_json.<locals>.<lambda> at 0x103a32d40>
+node:internal/modules/package_json_reader:145
+  const result = modulesBinding.getNearestParentPackageJSON(checkPath);
+                                ^
+
+Error: Invalid package config /Users/crashair/AI-Software/_Interpreter/Projects/Project-001/package.json.
+[90m    at Object.getNearestParentPackageJSON (node:internal/modules/package_json_reader:145:33)[39m
+[90m    at trySelf (node:internal/modules/cjs/loader:591:33)[39m
+[90m    at Function._resolveFilename (node:internal/modules/cjs/loader:1218:24)[39m
+[90m    at Function._load (node:internal/modules/cjs/loader:1066:27)[39m
+[90m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[90m    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)[39m
+[90m    at Module.require (node:internal/modules/cjs/loader:1327:12)[39m
+[90m    at node:internal/modules/cjs/loader:1853:12[39m
+[90m    at loadPreloadModules (node:internal/process/pre_execution:637:5)[39m
+[90m    at setupUserModules (node:internal/process/pre_execution:170:5)[39m {
+  code: [32m'ERR_INVALID_PACKAGE_CONFIG'[39m
+}
+
+Node.js v23.4.0
+2024-12-16 12:25:28.944 | ERROR    | error_manager:recovery_loop:64 - Recovery step failed: Command '['npm', 'install']' returned non-zero exit status 1.
+2024-12-16 12:25:30.950 | INFO     | error_manager:recovery_loop:49 - Attempting command: <function TestEnvironmentManager.test_missing_package_json.<locals>.<lambda> at 0x103a4dbc0>
+node:internal/modules/package_json_reader:145
+  const result = modulesBinding.getNearestParentPackageJSON(checkPath);
+                                ^
+
+Error: Invalid package config /Users/crashair/AI-Software/_Interpreter/Projects/Project-001/package.json.
+[90m    at Object.getNearestParentPackageJSON (node:internal/modules/package_json_reader:145:33)[39m
+[90m    at trySelf (node:internal/modules/cjs/loader:591:33)[39m
+[90m    at Function._resolveFilename (node:internal/modules/cjs/loader:1218:24)[39m
+[90m    at Function._load (node:internal/modules/cjs/loader:1066:27)[39m
+[90m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[90m    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)[39m
+[90m    at Module.require (node:internal/modules/cjs/loader:1327:12)[39m
+[90m    at node:internal/modules/cjs/loader:1853:12[39m
+[90m    at loadPreloadModules (node:internal/process/pre_execution:637:5)[39m
+[90m    at setupUserModules (node:internal/process/pre_execution:170:5)[39m {
+  code: [32m'ERR_INVALID_PACKAGE_CONFIG'[39m
+}
+
+Node.js v23.4.0
+2024-12-16 12:25:31.027 | ERROR    | error_manager:recovery_loop:54 - Subprocess failed with error: Command '['npm', 'install']' returned non-zero exit status 1.
+2024-12-16 12:25:31.027 | ERROR    | error_manager:log_error:28 - Command '['npm', 'install']' returned non-zero exit status 1.
+2024-12-16 12:25:31.027 | INFO     | error_manager:recovery_loop:56 - Attempt 2 of 3 failed. Applying recovery steps.
+2024-12-16 12:25:31.027 | DEBUG    | error_manager:recovery_loop:61 - Executing recovery step: <function TestEnvironmentManager.test_missing_package_json.<locals>.<lambda> at 0x103a327a0>
+2024-12-16 12:25:31.027 | DEBUG    | error_manager:recovery_loop:61 - Executing recovery step: <function TestEnvironmentManager.test_missing_package_json.<locals>.<lambda> at 0x103a32d40>
+node:internal/modules/package_json_reader:145
+  const result = modulesBinding.getNearestParentPackageJSON(checkPath);
+                                ^
+
+Error: Invalid package config /Users/crashair/AI-Software/_Interpreter/Projects/Project-001/package.json.
+[90m    at Object.getNearestParentPackageJSON (node:internal/modules/package_json_reader:145:33)[39m
+[90m    at trySelf (node:internal/modules/cjs/loader:591:33)[39m
+[90m    at Function._resolveFilename (node:internal/modules/cjs/loader:1218:24)[39m
+[90m    at Function._load (node:internal/modules/cjs/loader:1066:27)[39m
+[90m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[90m    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)[39m
+[90m    at Module.require (node:internal/modules/cjs/loader:1327:12)[39m
+[90m    at node:internal/modules/cjs/loader:1853:12[39m
+[90m    at loadPreloadModules (node:internal/process/pre_execution:637:5)[39m
+[90m    at setupUserModules (node:internal/process/pre_execution:170:5)[39m {
+  code: [32m'ERR_INVALID_PACKAGE_CONFIG'[39m
+}
+
+Node.js v23.4.0
+2024-12-16 12:25:31.070 | ERROR    | error_manager:recovery_loop:64 - Recovery step failed: Command '['npm', 'install']' returned non-zero exit status 1.
+2024-12-16 12:25:33.075 | INFO     | error_manager:recovery_loop:49 - Attempting command: <function TestEnvironmentManager.test_missing_package_json.<locals>.<lambda> at 0x103a4dbc0>
+node:internal/modules/package_json_reader:145
+  const result = modulesBinding.getNearestParentPackageJSON(checkPath);
+                                ^
+
+Error: Invalid package config /Users/crashair/AI-Software/_Interpreter/Projects/Project-001/package.json.
+[90m    at Object.getNearestParentPackageJSON (node:internal/modules/package_json_reader:145:33)[39m
+[90m    at trySelf (node:internal/modules/cjs/loader:591:33)[39m
+[90m    at Function._resolveFilename (node:internal/modules/cjs/loader:1218:24)[39m
+[90m    at Function._load (node:internal/modules/cjs/loader:1066:27)[39m
+[90m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[90m    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)[39m
+[90m    at Module.require (node:internal/modules/cjs/loader:1327:12)[39m
+[90m    at node:internal/modules/cjs/loader:1853:12[39m
+[90m    at loadPreloadModules (node:internal/process/pre_execution:637:5)[39m
+[90m    at setupUserModules (node:internal/process/pre_execution:170:5)[39m {
+  code: [32m'ERR_INVALID_PACKAGE_CONFIG'[39m
+}
+
+Node.js v23.4.0
+2024-12-16 12:25:33.149 | ERROR    | error_manager:recovery_loop:54 - Subprocess failed with error: Command '['npm', 'install']' returned non-zero exit status 1.
+2024-12-16 12:25:33.149 | ERROR    | error_manager:log_error:28 - Command '['npm', 'install']' returned non-zero exit status 1.
+2024-12-16 12:25:33.149 | INFO     | error_manager:recovery_loop:56 - Attempt 3 of 3 failed. Applying recovery steps.
+2024-12-16 12:25:33.149 | DEBUG    | error_manager:recovery_loop:61 - Executing recovery step: <function TestEnvironmentManager.test_missing_package_json.<locals>.<lambda> at 0x103a327a0>
+2024-12-16 12:25:33.149 | DEBUG    | error_manager:recovery_loop:61 - Executing recovery step: <function TestEnvironmentManager.test_missing_package_json.<locals>.<lambda> at 0x103a32d40>
+node:internal/modules/package_json_reader:145
+  const result = modulesBinding.getNearestParentPackageJSON(checkPath);
+                                ^
+
+Error: Invalid package config /Users/crashair/AI-Software/_Interpreter/Projects/Project-001/package.json.
+[90m    at Object.getNearestParentPackageJSON (node:internal/modules/package_json_reader:145:33)[39m
+[90m    at trySelf (node:internal/modules/cjs/loader:591:33)[39m
+[90m    at Function._resolveFilename (node:internal/modules/cjs/loader:1218:24)[39m
+[90m    at Function._load (node:internal/modules/cjs/loader:1066:27)[39m
+[90m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[90m    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)[39m
+[90m    at Module.require (node:internal/modules/cjs/loader:1327:12)[39m
+[90m    at node:internal/modules/cjs/loader:1853:12[39m
+[90m    at loadPreloadModules (node:internal/process/pre_execution:637:5)[39m
+[90m    at setupUserModules (node:internal/process/pre_execution:170:5)[39m {
+  code: [32m'ERR_INVALID_PACKAGE_CONFIG'[39m
+}
+
+Node.js v23.4.0
+2024-12-16 12:25:33.192 | ERROR    | error_manager:recovery_loop:64 - Recovery step failed: Command '['npm', 'install']' returned non-zero exit status 1.
+2024-12-16 12:25:35.198 | CRITICAL | error_manager:recovery_loop:67 - All recovery attempts failed. Manual intervention required.
+E2024-12-16 12:25:35.212 | INFO     | error_manager:recovery_loop:49 - Attempting command: <function TestEnvironmentManager.test_network_error.<locals>.<lambda> at 0x103a4dda0>
+node:internal/modules/package_json_reader:145
+  const result = modulesBinding.getNearestParentPackageJSON(checkPath);
+                                ^
+
+Error: Invalid package config /Users/crashair/AI-Software/_Interpreter/Projects/Project-001/package.json.
+[90m    at Object.getNearestParentPackageJSON (node:internal/modules/package_json_reader:145:33)[39m
+[90m    at trySelf (node:internal/modules/cjs/loader:591:33)[39m
+[90m    at Function._resolveFilename (node:internal/modules/cjs/loader:1218:24)[39m
+[90m    at Function._load (node:internal/modules/cjs/loader:1066:27)[39m
+[90m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[90m    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)[39m
+[90m    at Module.require (node:internal/modules/cjs/loader:1327:12)[39m
+[90m    at node:internal/modules/cjs/loader:1853:12[39m
+[90m    at loadPreloadModules (node:internal/process/pre_execution:637:5)[39m
+[90m    at setupUserModules (node:internal/process/pre_execution:170:5)[39m {
+  code: [32m'ERR_INVALID_PACKAGE_CONFIG'[39m
+}
+
+Node.js v23.4.0
+2024-12-16 12:25:35.280 | ERROR    | error_manager:recovery_loop:54 - Subprocess failed with error: Command '['npm', 'install', '--offline']' returned non-zero exit status 1.
+2024-12-16 12:25:35.280 | ERROR    | error_manager:log_error:28 - Command '['npm', 'install', '--offline']' returned non-zero exit status 1.
+2024-12-16 12:25:35.280 | INFO     | error_manager:recovery_loop:56 - Attempt 1 of 3 failed. Applying recovery steps.
+2024-12-16 12:25:35.280 | DEBUG    | error_manager:recovery_loop:61 - Executing recovery step: <function TestEnvironmentManager.test_network_error.<locals>.<lambda> at 0x103a32a20>
+node:internal/modules/package_json_reader:145
+  const result = modulesBinding.getNearestParentPackageJSON(checkPath);
+                                ^
+
+Error: Invalid package config /Users/crashair/AI-Software/_Interpreter/Projects/Project-001/package.json.
+[90m    at Object.getNearestParentPackageJSON (node:internal/modules/package_json_reader:145:33)[39m
+[90m    at trySelf (node:internal/modules/cjs/loader:591:33)[39m
+[90m    at Function._resolveFilename (node:internal/modules/cjs/loader:1218:24)[39m
+[90m    at Function._load (node:internal/modules/cjs/loader:1066:27)[39m
+[90m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[90m    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)[39m
+[90m    at Module.require (node:internal/modules/cjs/loader:1327:12)[39m
+[90m    at node:internal/modules/cjs/loader:1853:12[39m
+[90m    at loadPreloadModules (node:internal/process/pre_execution:637:5)[39m
+[90m    at setupUserModules (node:internal/process/pre_execution:170:5)[39m {
+  code: [32m'ERR_INVALID_PACKAGE_CONFIG'[39m
+}
+
+Node.js v23.4.0
+2024-12-16 12:25:35.322 | ERROR    | error_manager:recovery_loop:64 - Recovery step failed: Command '['npm', 'install', '--offline']' returned non-zero exit status 1.
+2024-12-16 12:25:35.322 | DEBUG    | error_manager:recovery_loop:61 - Executing recovery step: <function TestEnvironmentManager.test_network_error.<locals>.<lambda> at 0x103a4dc60>
+node:internal/modules/package_json_reader:145
+  const result = modulesBinding.getNearestParentPackageJSON(checkPath);
+                                ^
+
+Error: Invalid package config /Users/crashair/AI-Software/_Interpreter/Projects/Project-001/package.json.
+[90m    at Object.getNearestParentPackageJSON (node:internal/modules/package_json_reader:145:33)[39m
+[90m    at trySelf (node:internal/modules/cjs/loader:591:33)[39m
+[90m    at Function._resolveFilename (node:internal/modules/cjs/loader:1218:24)[39m
+[90m    at Function._load (node:internal/modules/cjs/loader:1066:27)[39m
+[90m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[90m    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)[39m
+[90m    at Module.require (node:internal/modules/cjs/loader:1327:12)[39m
+[90m    at node:internal/modules/cjs/loader:1853:12[39m
+[90m    at loadPreloadModules (node:internal/process/pre_execution:637:5)[39m
+[90m    at setupUserModules (node:internal/process/pre_execution:170:5)[39m {
+  code: [32m'ERR_INVALID_PACKAGE_CONFIG'[39m
+}
+
+Node.js v23.4.0
+2024-12-16 12:25:35.363 | ERROR    | error_manager:recovery_loop:64 - Recovery step failed: Command '['npm', 'install']' returned non-zero exit status 1.
+2024-12-16 12:25:37.369 | INFO     | error_manager:recovery_loop:49 - Attempting command: <function TestEnvironmentManager.test_network_error.<locals>.<lambda> at 0x103a4dda0>
+node:internal/modules/package_json_reader:145
+  const result = modulesBinding.getNearestParentPackageJSON(checkPath);
+                                ^
+
+Error: Invalid package config /Users/crashair/AI-Software/_Interpreter/Projects/Project-001/package.json.
+[90m    at Object.getNearestParentPackageJSON (node:internal/modules/package_json_reader:145:33)[39m
+[90m    at trySelf (node:internal/modules/cjs/loader:591:33)[39m
+[90m    at Function._resolveFilename (node:internal/modules/cjs/loader:1218:24)[39m
+[90m    at Function._load (node:internal/modules/cjs/loader:1066:27)[39m
+[90m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[90m    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)[39m
+[90m    at Module.require (node:internal/modules/cjs/loader:1327:12)[39m
+[90m    at node:internal/modules/cjs/loader:1853:12[39m
+[90m    at loadPreloadModules (node:internal/process/pre_execution:637:5)[39m
+[90m    at setupUserModules (node:internal/process/pre_execution:170:5)[39m {
+  code: [32m'ERR_INVALID_PACKAGE_CONFIG'[39m
+}
+
+Node.js v23.4.0
+2024-12-16 12:25:37.438 | ERROR    | error_manager:recovery_loop:54 - Subprocess failed with error: Command '['npm', 'install', '--offline']' returned non-zero exit status 1.
+2024-12-16 12:25:37.438 | ERROR    | error_manager:log_error:28 - Command '['npm', 'install', '--offline']' returned non-zero exit status 1.
+2024-12-16 12:25:37.438 | INFO     | error_manager:recovery_loop:56 - Attempt 2 of 3 failed. Applying recovery steps.
+2024-12-16 12:25:37.438 | DEBUG    | error_manager:recovery_loop:61 - Executing recovery step: <function TestEnvironmentManager.test_network_error.<locals>.<lambda> at 0x103a32a20>
+node:internal/modules/package_json_reader:145
+  const result = modulesBinding.getNearestParentPackageJSON(checkPath);
+                                ^
+
+Error: Invalid package config /Users/crashair/AI-Software/_Interpreter/Projects/Project-001/package.json.
+[90m    at Object.getNearestParentPackageJSON (node:internal/modules/package_json_reader:145:33)[39m
+[90m    at trySelf (node:internal/modules/cjs/loader:591:33)[39m
+[90m    at Function._resolveFilename (node:internal/modules/cjs/loader:1218:24)[39m
+[90m    at Function._load (node:internal/modules/cjs/loader:1066:27)[39m
+[90m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[90m    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)[39m
+[90m    at Module.require (node:internal/modules/cjs/loader:1327:12)[39m
+[90m    at node:internal/modules/cjs/loader:1853:12[39m
+[90m    at loadPreloadModules (node:internal/process/pre_execution:637:5)[39m
+[90m    at setupUserModules (node:internal/process/pre_execution:170:5)[39m {
+  code: [32m'ERR_INVALID_PACKAGE_CONFIG'[39m
+}
+
+Node.js v23.4.0
+2024-12-16 12:25:37.481 | ERROR    | error_manager:recovery_loop:64 - Recovery step failed: Command '['npm', 'install', '--offline']' returned non-zero exit status 1.
+2024-12-16 12:25:37.481 | DEBUG    | error_manager:recovery_loop:61 - Executing recovery step: <function TestEnvironmentManager.test_network_error.<locals>.<lambda> at 0x103a4dc60>
+node:internal/modules/package_json_reader:145
+  const result = modulesBinding.getNearestParentPackageJSON(checkPath);
+                                ^
+
+Error: Invalid package config /Users/crashair/AI-Software/_Interpreter/Projects/Project-001/package.json.
+[90m    at Object.getNearestParentPackageJSON (node:internal/modules/package_json_reader:145:33)[39m
+[90m    at trySelf (node:internal/modules/cjs/loader:591:33)[39m
+[90m    at Function._resolveFilename (node:internal/modules/cjs/loader:1218:24)[39m
+[90m    at Function._load (node:internal/modules/cjs/loader:1066:27)[39m
+[90m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[90m    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)[39m
+[90m    at Module.require (node:internal/modules/cjs/loader:1327:12)[39m
+[90m    at node:internal/modules/cjs/loader:1853:12[39m
+[90m    at loadPreloadModules (node:internal/process/pre_execution:637:5)[39m
+[90m    at setupUserModules (node:internal/process/pre_execution:170:5)[39m {
+  code: [32m'ERR_INVALID_PACKAGE_CONFIG'[39m
+}
+
+Node.js v23.4.0
+2024-12-16 12:25:37.521 | ERROR    | error_manager:recovery_loop:64 - Recovery step failed: Command '['npm', 'install']' returned non-zero exit status 1.
+2024-12-16 12:25:39.527 | INFO     | error_manager:recovery_loop:49 - Attempting command: <function TestEnvironmentManager.test_network_error.<locals>.<lambda> at 0x103a4dda0>
+node:internal/modules/package_json_reader:145
+  const result = modulesBinding.getNearestParentPackageJSON(checkPath);
+                                ^
+
+Error: Invalid package config /Users/crashair/AI-Software/_Interpreter/Projects/Project-001/package.json.
+[90m    at Object.getNearestParentPackageJSON (node:internal/modules/package_json_reader:145:33)[39m
+[90m    at trySelf (node:internal/modules/cjs/loader:591:33)[39m
+[90m    at Function._resolveFilename (node:internal/modules/cjs/loader:1218:24)[39m
+[90m    at Function._load (node:internal/modules/cjs/loader:1066:27)[39m
+[90m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[90m    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)[39m
+[90m    at Module.require (node:internal/modules/cjs/loader:1327:12)[39m
+[90m    at node:internal/modules/cjs/loader:1853:12[39m
+[90m    at loadPreloadModules (node:internal/process/pre_execution:637:5)[39m
+[90m    at setupUserModules (node:internal/process/pre_execution:170:5)[39m {
+  code: [32m'ERR_INVALID_PACKAGE_CONFIG'[39m
+}
+
+Node.js v23.4.0
+2024-12-16 12:25:39.600 | ERROR    | error_manager:recovery_loop:54 - Subprocess failed with error: Command '['npm', 'install', '--offline']' returned non-zero exit status 1.
+2024-12-16 12:25:39.600 | ERROR    | error_manager:log_error:28 - Command '['npm', 'install', '--offline']' returned non-zero exit status 1.
+2024-12-16 12:25:39.601 | INFO     | error_manager:recovery_loop:56 - Attempt 3 of 3 failed. Applying recovery steps.
+2024-12-16 12:25:39.601 | DEBUG    | error_manager:recovery_loop:61 - Executing recovery step: <function TestEnvironmentManager.test_network_error.<locals>.<lambda> at 0x103a32a20>
+node:internal/modules/package_json_reader:145
+  const result = modulesBinding.getNearestParentPackageJSON(checkPath);
+                                ^
+
+Error: Invalid package config /Users/crashair/AI-Software/_Interpreter/Projects/Project-001/package.json.
+[90m    at Object.getNearestParentPackageJSON (node:internal/modules/package_json_reader:145:33)[39m
+[90m    at trySelf (node:internal/modules/cjs/loader:591:33)[39m
+[90m    at Function._resolveFilename (node:internal/modules/cjs/loader:1218:24)[39m
+[90m    at Function._load (node:internal/modules/cjs/loader:1066:27)[39m
+[90m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[90m    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)[39m
+[90m    at Module.require (node:internal/modules/cjs/loader:1327:12)[39m
+[90m    at node:internal/modules/cjs/loader:1853:12[39m
+[90m    at loadPreloadModules (node:internal/process/pre_execution:637:5)[39m
+[90m    at setupUserModules (node:internal/process/pre_execution:170:5)[39m {
+  code: [32m'ERR_INVALID_PACKAGE_CONFIG'[39m
+}
+
+Node.js v23.4.0
+2024-12-16 12:25:39.643 | ERROR    | error_manager:recovery_loop:64 - Recovery step failed: Command '['npm', 'install', '--offline']' returned non-zero exit status 1.
+2024-12-16 12:25:39.644 | DEBUG    | error_manager:recovery_loop:61 - Executing recovery step: <function TestEnvironmentManager.test_network_error.<locals>.<lambda> at 0x103a4dc60>
+node:internal/modules/package_json_reader:145
+  const result = modulesBinding.getNearestParentPackageJSON(checkPath);
+                                ^
+
+Error: Invalid package config /Users/crashair/AI-Software/_Interpreter/Projects/Project-001/package.json.
+[90m    at Object.getNearestParentPackageJSON (node:internal/modules/package_json_reader:145:33)[39m
+[90m    at trySelf (node:internal/modules/cjs/loader:591:33)[39m
+[90m    at Function._resolveFilename (node:internal/modules/cjs/loader:1218:24)[39m
+[90m    at Function._load (node:internal/modules/cjs/loader:1066:27)[39m
+[90m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[90m    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)[39m
+[90m    at Module.require (node:internal/modules/cjs/loader:1327:12)[39m
+[90m    at node:internal/modules/cjs/loader:1853:12[39m
+[90m    at loadPreloadModules (node:internal/process/pre_execution:637:5)[39m
+[90m    at setupUserModules (node:internal/process/pre_execution:170:5)[39m {
+  code: [32m'ERR_INVALID_PACKAGE_CONFIG'[39m
+}
+
+Node.js v23.4.0
+2024-12-16 12:25:39.684 | ERROR    | error_manager:recovery_loop:64 - Recovery step failed: Command '['npm', 'install']' returned non-zero exit status 1.
+2024-12-16 12:25:41.690 | CRITICAL | error_manager:recovery_loop:67 - All recovery attempts failed. Manual intervention required.
+E2024-12-16 12:25:41.707 | INFO     | error_manager:recovery_loop:49 - Attempting command: <function TestEnvironmentManager.test_permission_error.<locals>.<lambda> at 0x103a4de40>
+node:internal/modules/package_json_reader:145
+  const result = modulesBinding.getNearestParentPackageJSON(checkPath);
+                                ^
+
+Error: Invalid package config /Users/crashair/AI-Software/_Interpreter/Projects/Project-001/package.json.
+[90m    at Object.getNearestParentPackageJSON (node:internal/modules/package_json_reader:145:33)[39m
+[90m    at trySelf (node:internal/modules/cjs/loader:591:33)[39m
+[90m    at Function._resolveFilename (node:internal/modules/cjs/loader:1218:24)[39m
+[90m    at Function._load (node:internal/modules/cjs/loader:1066:27)[39m
+[90m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[90m    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)[39m
+[90m    at Module.require (node:internal/modules/cjs/loader:1327:12)[39m
+[90m    at node:internal/modules/cjs/loader:1853:12[39m
+[90m    at loadPreloadModules (node:internal/process/pre_execution:637:5)[39m
+[90m    at setupUserModules (node:internal/process/pre_execution:170:5)[39m {
+  code: [32m'ERR_INVALID_PACKAGE_CONFIG'[39m
+}
+
+Node.js v23.4.0
+2024-12-16 12:25:41.778 | ERROR    | error_manager:recovery_loop:54 - Subprocess failed with error: Command '['npm', 'install']' returned non-zero exit status 1.
+2024-12-16 12:25:41.778 | ERROR    | error_manager:log_error:28 - Command '['npm', 'install']' returned non-zero exit status 1.
+2024-12-16 12:25:41.778 | INFO     | error_manager:recovery_loop:56 - Attempt 1 of 3 failed. Applying recovery steps.
+2024-12-16 12:25:41.778 | DEBUG    | error_manager:recovery_loop:61 - Executing recovery step: <function TestEnvironmentManager.test_permission_error.<locals>.<lambda> at 0x103a4dbc0>
+2024-12-16 12:25:41.779 | DEBUG    | error_manager:recovery_loop:61 - Executing recovery step: <function TestEnvironmentManager.test_permission_error.<locals>.<lambda> at 0x103a4dc60>
+node:internal/modules/package_json_reader:145
+  const result = modulesBinding.getNearestParentPackageJSON(checkPath);
+                                ^
+
+Error: Invalid package config /Users/crashair/AI-Software/_Interpreter/Projects/Project-001/package.json.
+[90m    at Object.getNearestParentPackageJSON (node:internal/modules/package_json_reader:145:33)[39m
+[90m    at trySelf (node:internal/modules/cjs/loader:591:33)[39m
+[90m    at Function._resolveFilename (node:internal/modules/cjs/loader:1218:24)[39m
+[90m    at Function._load (node:internal/modules/cjs/loader:1066:27)[39m
+[90m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[90m    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)[39m
+[90m    at Module.require (node:internal/modules/cjs/loader:1327:12)[39m
+[90m    at node:internal/modules/cjs/loader:1853:12[39m
+[90m    at loadPreloadModules (node:internal/process/pre_execution:637:5)[39m
+[90m    at setupUserModules (node:internal/process/pre_execution:170:5)[39m {
+  code: [32m'ERR_INVALID_PACKAGE_CONFIG'[39m
+}
+
+Node.js v23.4.0
+2024-12-16 12:25:41.821 | ERROR    | error_manager:recovery_loop:64 - Recovery step failed: Command '['npm', 'install']' returned non-zero exit status 1.
+2024-12-16 12:25:43.827 | INFO     | error_manager:recovery_loop:49 - Attempting command: <function TestEnvironmentManager.test_permission_error.<locals>.<lambda> at 0x103a4de40>
+node:internal/modules/package_json_reader:145
+  const result = modulesBinding.getNearestParentPackageJSON(checkPath);
+                                ^
+
+Error: Invalid package config /Users/crashair/AI-Software/_Interpreter/Projects/Project-001/package.json.
+[90m    at Object.getNearestParentPackageJSON (node:internal/modules/package_json_reader:145:33)[39m
+[90m    at trySelf (node:internal/modules/cjs/loader:591:33)[39m
+[90m    at Function._resolveFilename (node:internal/modules/cjs/loader:1218:24)[39m
+[90m    at Function._load (node:internal/modules/cjs/loader:1066:27)[39m
+[90m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[90m    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)[39m
+[90m    at Module.require (node:internal/modules/cjs/loader:1327:12)[39m
+[90m    at node:internal/modules/cjs/loader:1853:12[39m
+[90m    at loadPreloadModules (node:internal/process/pre_execution:637:5)[39m
+[90m    at setupUserModules (node:internal/process/pre_execution:170:5)[39m {
+  code: [32m'ERR_INVALID_PACKAGE_CONFIG'[39m
+}
+
+Node.js v23.4.0
+2024-12-16 12:25:43.903 | ERROR    | error_manager:recovery_loop:54 - Subprocess failed with error: Command '['npm', 'install']' returned non-zero exit status 1.
+2024-12-16 12:25:43.904 | ERROR    | error_manager:log_error:28 - Command '['npm', 'install']' returned non-zero exit status 1.
+2024-12-16 12:25:43.904 | INFO     | error_manager:recovery_loop:56 - Attempt 2 of 3 failed. Applying recovery steps.
+2024-12-16 12:25:43.904 | DEBUG    | error_manager:recovery_loop:61 - Executing recovery step: <function TestEnvironmentManager.test_permission_error.<locals>.<lambda> at 0x103a4dbc0>
+2024-12-16 12:25:43.904 | DEBUG    | error_manager:recovery_loop:61 - Executing recovery step: <function TestEnvironmentManager.test_permission_error.<locals>.<lambda> at 0x103a4dc60>
+node:internal/modules/package_json_reader:145
+  const result = modulesBinding.getNearestParentPackageJSON(checkPath);
+                                ^
+
+Error: Invalid package config /Users/crashair/AI-Software/_Interpreter/Projects/Project-001/package.json.
+[90m    at Object.getNearestParentPackageJSON (node:internal/modules/package_json_reader:145:33)[39m
+[90m    at trySelf (node:internal/modules/cjs/loader:591:33)[39m
+[90m    at Function._resolveFilename (node:internal/modules/cjs/loader:1218:24)[39m
+[90m    at Function._load (node:internal/modules/cjs/loader:1066:27)[39m
+[90m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[90m    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)[39m
+[90m    at Module.require (node:internal/modules/cjs/loader:1327:12)[39m
+[90m    at node:internal/modules/cjs/loader:1853:12[39m
+[90m    at loadPreloadModules (node:internal/process/pre_execution:637:5)[39m
+[90m    at setupUserModules (node:internal/process/pre_execution:170:5)[39m {
+  code: [32m'ERR_INVALID_PACKAGE_CONFIG'[39m
+}
+
+Node.js v23.4.0
+2024-12-16 12:25:43.947 | ERROR    | error_manager:recovery_loop:64 - Recovery step failed: Command '['npm', 'install']' returned non-zero exit status 1.
+2024-12-16 12:25:45.953 | INFO     | error_manager:recovery_loop:49 - Attempting command: <function TestEnvironmentManager.test_permission_error.<locals>.<lambda> at 0x103a4de40>
+node:internal/modules/package_json_reader:145
+  const result = modulesBinding.getNearestParentPackageJSON(checkPath);
+                                ^
+
+Error: Invalid package config /Users/crashair/AI-Software/_Interpreter/Projects/Project-001/package.json.
+[90m    at Object.getNearestParentPackageJSON (node:internal/modules/package_json_reader:145:33)[39m
+[90m    at trySelf (node:internal/modules/cjs/loader:591:33)[39m
+[90m    at Function._resolveFilename (node:internal/modules/cjs/loader:1218:24)[39m
+[90m    at Function._load (node:internal/modules/cjs/loader:1066:27)[39m
+[90m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[90m    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)[39m
+[90m    at Module.require (node:internal/modules/cjs/loader:1327:12)[39m
+[90m    at node:internal/modules/cjs/loader:1853:12[39m
+[90m    at loadPreloadModules (node:internal/process/pre_execution:637:5)[39m
+[90m    at setupUserModules (node:internal/process/pre_execution:170:5)[39m {
+  code: [32m'ERR_INVALID_PACKAGE_CONFIG'[39m
+}
+
+Node.js v23.4.0
+2024-12-16 12:25:46.027 | ERROR    | error_manager:recovery_loop:54 - Subprocess failed with error: Command '['npm', 'install']' returned non-zero exit status 1.
+2024-12-16 12:25:46.027 | ERROR    | error_manager:log_error:28 - Command '['npm', 'install']' returned non-zero exit status 1.
+2024-12-16 12:25:46.027 | INFO     | error_manager:recovery_loop:56 - Attempt 3 of 3 failed. Applying recovery steps.
+2024-12-16 12:25:46.027 | DEBUG    | error_manager:recovery_loop:61 - Executing recovery step: <function TestEnvironmentManager.test_permission_error.<locals>.<lambda> at 0x103a4dbc0>
+2024-12-16 12:25:46.027 | DEBUG    | error_manager:recovery_loop:61 - Executing recovery step: <function TestEnvironmentManager.test_permission_error.<locals>.<lambda> at 0x103a4dc60>
+node:internal/modules/package_json_reader:145
+  const result = modulesBinding.getNearestParentPackageJSON(checkPath);
+                                ^
+
+Error: Invalid package config /Users/crashair/AI-Software/_Interpreter/Projects/Project-001/package.json.
+[90m    at Object.getNearestParentPackageJSON (node:internal/modules/package_json_reader:145:33)[39m
+[90m    at trySelf (node:internal/modules/cjs/loader:591:33)[39m
+[90m    at Function._resolveFilename (node:internal/modules/cjs/loader:1218:24)[39m
+[90m    at Function._load (node:internal/modules/cjs/loader:1066:27)[39m
+[90m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[90m    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)[39m
+[90m    at Module.require (node:internal/modules/cjs/loader:1327:12)[39m
+[90m    at node:internal/modules/cjs/loader:1853:12[39m
+[90m    at loadPreloadModules (node:internal/process/pre_execution:637:5)[39m
+[90m    at setupUserModules (node:internal/process/pre_execution:170:5)[39m {
+  code: [32m'ERR_INVALID_PACKAGE_CONFIG'[39m
+}
+
+Node.js v23.4.0
+2024-12-16 12:25:46.070 | ERROR    | error_manager:recovery_loop:64 - Recovery step failed: Command '['npm', 'install']' returned non-zero exit status 1.
+2024-12-16 12:25:48.075 | CRITICAL | error_manager:recovery_loop:67 - All recovery attempts failed. Manual intervention required.
+E
+======================================================================
+ERROR: test_missing_package_json (test_env_manager.TestEnvironmentManager.test_missing_package_json)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/crashair/AI-Software/_Interpreter/Projects/Project-001/test_env_manager.py", line 22, in test_missing_package_json
+    self.error_manager.recovery_loop(
+  File "/Users/crashair/AI-Software/_Interpreter/Projects/Project-001/error_manager.py", line 68, in recovery_loop
+    raise Exception("Recovery failed after 3 attempts.")
+Exception: Recovery failed after 3 attempts.
+
+======================================================================
+ERROR: test_network_error (test_env_manager.TestEnvironmentManager.test_network_error)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/crashair/AI-Software/_Interpreter/Projects/Project-001/test_env_manager.py", line 75, in test_network_error
+    self.error_manager.recovery_loop(
+  File "/Users/crashair/AI-Software/_Interpreter/Projects/Project-001/error_manager.py", line 68, in recovery_loop
+    raise Exception("Recovery failed after 3 attempts.")
+Exception: Recovery failed after 3 attempts.
+
+======================================================================
+ERROR: test_permission_error (test_env_manager.TestEnvironmentManager.test_permission_error)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/crashair/AI-Software/_Interpreter/Projects/Project-001/test_env_manager.py", line 48, in test_permission_error
+    self.error_manager.recovery_loop(
+  File "/Users/crashair/AI-Software/_Interpreter/Projects/Project-001/error_manager.py", line 68, in recovery_loop
+    raise Exception("Recovery failed after 3 attempts.")
+Exception: Recovery failed after 3 attempts.
+
+----------------------------------------------------------------------
+Ran 5 tests in 22.184s
+
+FAILED (errors=3)
