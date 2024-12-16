@@ -1,0 +1,76 @@
+2024-12-16 17:57:45 - INFO - Loguru logger initialized.
+2024-12-16 17:57:45 - INFO - This is an informational message.
+2024-12-16 17:57:45 - WARNING - This is a warning message.
+2024-12-16 17:57:45 - ERROR - This is an error message.
+2024-12-16 17:57:45 - CRITICAL - This is a critical error message.
+2024-12-16 17:58:38 - INFO - Loguru logger initialized.
+2024-12-16 17:58:38 - INFO - This is an informational message.
+2024-12-16 17:58:38 - WARNING - This is a warning message.
+2024-12-16 17:58:38 - ERROR - This is an error message.
+2024-12-16 17:58:38 - CRITICAL - This is a critical error message.
+2024-12-16 17:59:31 - INFO - Loguru logger initialized.
+2024-12-16 18:03:04 - INFO - Loguru logger initialized.
+2024-12-16 18:11:49 - INFO - Loguru logger initialized.
+2024-12-16 18:11:49 - INFO - This is an informational message.
+2024-12-16 18:11:49 - WARNING - This is a warning message.
+2024-12-16 18:11:49 - ERROR - This is an error message.
+2024-12-16 18:11:49 - CRITICAL - This is a critical error message.
+2024-12-16 18:12:05 - INFO - Loguru logger initialized.
+2024-12-16 18:12:05 - INFO - Loguru logger initialized.
+2024-12-16 18:12:22 - INFO - Loguru logger initialized.
+2024-12-16 18:12:22 - INFO - Loguru logger initialized.
+2024-12-16 18:12:22 - INFO - Loguru logger initialized.
+2024-12-16 18:12:44 - INFO - Attempt 1 for command.
+2024-12-16 18:12:44 - INFO - Attempt 1 for command.
+2024-12-16 18:12:44 - INFO - Attempt 1 for command.
+2024-12-16 18:12:45 - INFO - Command executed successfully.
+2024-12-16 18:12:45 - INFO - Command executed successfully.
+2024-12-16 18:12:45 - INFO - Command executed successfully.
+2024-12-16 18:12:59 - INFO - Setting up the environment...
+2024-12-16 18:12:59 - INFO - Setting up the environment...
+2024-12-16 18:12:59 - INFO - Setting up the environment...
+2024-12-16 18:12:59 - INFO - Checking installations...
+2024-12-16 18:12:59 - INFO - Checking installations...
+2024-12-16 18:12:59 - INFO - Checking installations...
+2024-12-16 18:12:59 - INFO - Node.js version: v23.4.0
+2024-12-16 18:12:59 - INFO - Node.js version: v23.4.0
+2024-12-16 18:12:59 - INFO - Node.js version: v23.4.0
+2024-12-16 18:12:59 - INFO - npm version: Modules preloaded for Open Interpreter. 🚀
+10.9.2
+2024-12-16 18:12:59 - INFO - npm version: Modules preloaded for Open Interpreter. 🚀
+10.9.2
+2024-12-16 18:12:59 - INFO - npm version: Modules preloaded for Open Interpreter. 🚀
+10.9.2
+2024-12-16 18:12:59 - INFO - Python version: Python 3.11.10
+2024-12-16 18:12:59 - INFO - Python version: Python 3.11.10
+2024-12-16 18:12:59 - INFO - Python version: Python 3.11.10
+2024-12-16 18:12:59 - INFO - Checking for /Users/crashair/AI-Software/_Interpreter/Projects/Project-001/package.json...
+2024-12-16 18:12:59 - INFO - Checking for /Users/crashair/AI-Software/_Interpreter/Projects/Project-001/package.json...
+2024-12-16 18:12:59 - INFO - Checking for /Users/crashair/AI-Software/_Interpreter/Projects/Project-001/package.json...
+2024-12-16 18:12:59 - INFO - Installing dependencies...
+2024-12-16 18:12:59 - INFO - Installing dependencies...
+2024-12-16 18:12:59 - INFO - Installing dependencies...
+2024-12-16 18:12:59 - INFO - Dependencies installed successfully.
+2024-12-16 18:12:59 - INFO - Dependencies installed successfully.
+2024-12-16 18:12:59 - INFO - Dependencies installed successfully.
+2024-12-16 18:13:10 - INFO - State loaded successfully.
+2024-12-16 18:13:10 - INFO - State loaded successfully.
+2024-12-16 18:13:10 - INFO - State loaded successfully.
+2024-12-16 18:13:10 - INFO - State successfully saved.
+2024-12-16 18:13:10 - INFO - State successfully saved.
+2024-12-16 18:13:10 - INFO - State successfully saved.
+2024-12-16 18:13:10 - INFO - State updated: initialized = True
+2024-12-16 18:13:10 - INFO - State updated: initialized = True
+2024-12-16 18:13:10 - INFO - State updated: initialized = True
+2024-12-16 18:13:10 - INFO - Current state: {'test_key': 'updated_state', 'initialized': True}
+2024-12-16 18:13:10 - INFO - Current state: {'test_key': 'updated_state', 'initialized': True}
+2024-12-16 18:13:10 - INFO - Current state: {'test_key': 'updated_state', 'initialized': True}
+2024-12-16 18:13:46 - INFO - Starting Project-001 Profile...
+2024-12-16 18:13:46 - INFO - Starting Project-001 Profile...
+2024-12-16 18:13:46 - INFO - Starting Project-001 Profile...
+2024-12-16 18:13:46 - INFO - Running main functionality...
+2024-12-16 18:13:46 - INFO - Running main functionality...
+2024-12-16 18:13:46 - INFO - Running main functionality...
+2024-12-16 18:13:46 - INFO - Project-001 Profile completed successfully.
+2024-12-16 18:13:46 - INFO - Project-001 Profile completed successfully.
+2024-12-16 18:13:46 - INFO - Project-001 Profile completed successfully.

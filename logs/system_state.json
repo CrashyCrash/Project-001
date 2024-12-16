@@ -1,1 +1,4 @@
-{"test_key": "updated_state"}
+{
+    "test_key": "updated_state",
+    "initialized": true
+}

@@ -1,1 +1,21 @@
 2024-12-16 13:24:13,514 - MyLogger - ERROR - Test error for logging
+2024-12-16 16:10:11,830 - MyLogger - ERROR - Test error for logging
+2024-12-16 17:57:44,996 - MyLogger - INFO - Python logger initialized.
+2024-12-16 17:57:45,005 - MyLogger - INFO - This is an informational message.
+2024-12-16 17:57:45,005 - MyLogger - WARNING - This is a warning message.
+2024-12-16 17:57:45,005 - MyLogger - ERROR - This is an error message.
+2024-12-16 17:57:45,005 - MyLogger - CRITICAL - This is a critical error message.
+2024-12-16 17:58:38,335 - MyLogger - INFO - Python logger initialized.
+2024-12-16 17:58:38,341 - MyLogger - INFO - This is an informational message.
+2024-12-16 17:58:38,341 - MyLogger - WARNING - This is a warning message.
+2024-12-16 17:58:38,341 - MyLogger - ERROR - This is an error message.
+2024-12-16 17:58:38,341 - MyLogger - CRITICAL - This is a critical error message.
+2024-12-16 17:59:31,887 - MyLogger - INFO - Python logger initialized.
+2024-12-16 18:03:04,356 - MyLogger - INFO - Python logger initialized.
+2024-12-16 18:11:49,347 - MyLogger - INFO - Python logger initialized.
+2024-12-16 18:11:49,351 - MyLogger - INFO - This is an informational message.
+2024-12-16 18:11:49,352 - MyLogger - WARNING - This is a warning message.
+2024-12-16 18:11:49,352 - MyLogger - ERROR - This is an error message.
+2024-12-16 18:11:49,353 - MyLogger - CRITICAL - This is a critical error message.
+2024-12-16 18:12:05,831 - MyLogger - INFO - Python logger initialized.
+2024-12-16 18:12:22,706 - MyLogger - INFO - Python logger initialized.
