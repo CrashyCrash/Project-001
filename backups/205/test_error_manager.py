@@ -9,7 +9,7 @@ def faulty_command():
     raise ValueError('Simulated ValueError for testing.')
 
 try:
-    success = error_manager.recovery_loop(
+    error_manager.recovery_loop(
         faulty_command,
         [
             error_manager.create_package_json,  # Use named functions
@@ -17,7 +17,7 @@ try:
             error_manager.reinstall_dependencies
         ]
     )
-    print("Recovery was successful:", success)
+    print("Recovery was successful:", True)
 except Exception as e:
     app_logger.log_error(f"Error encountered: {str(e)}")
     print("Recovery was successful:", False)

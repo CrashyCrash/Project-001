@@ -56,10 +56,9 @@ class StateManager:
         """
         Update a key-value pair in the state and save it to the file.
         """
-        if self.state.get(key) != value:
-            self.state[key] = value
-            self.save_state()
-            app_logger.log_info(f"State updated: {key} = {value}")
+        self.state[key] = value
+        self.save_state()
+        app_logger.log_info(f"State updated: {key} = {value}")
 
     def get_state(self):
         """

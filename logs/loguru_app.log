@@ -726,3 +726,105 @@
 2024-12-18 09:29:19 - ERROR - All recovery attempts failed. Manual intervention required.
 2024-12-18 09:45:44 - INFO - Loguru logger initialized.
 2024-12-18 09:45:44 - INFO - This is an informational message from the Logger class.
+2024-12-18 09:52:57 - INFO - Loguru logger initialized.
+2024-12-18 09:52:57 - INFO - All required libraries are installed successfully.
+2024-12-18 09:52:57 - INFO - Loguru logger initialized.
+2024-12-18 09:52:57 - INFO - Loguru logger initialized.
+2024-12-18 09:52:57 - INFO - Loguru logger initialized.
+2024-12-18 09:52:57 - INFO - Loguru logger initialized.
+2024-12-18 09:52:57 - INFO - Loguru logger initialized.
+2024-12-18 09:52:57 - INFO - Attempt 1 for command.
+2024-12-18 09:52:57 - INFO - Attempt 1 for command.
+2024-12-18 09:52:57 - INFO - Attempt 1 for command.
+2024-12-18 09:52:57 - ERROR - Attempt 1 failed: Simulated ValueError for testing.
+2024-12-18 09:52:57 - ERROR - Attempt 1 failed: Simulated ValueError for testing.
+2024-12-18 09:52:57 - ERROR - Attempt 1 failed: Simulated ValueError for testing.
+2024-12-18 09:52:57 - INFO - Executing recovery step: <function <lambda> at 0x102e6fe20>
+2024-12-18 09:52:57 - INFO - Executing recovery step: <function <lambda> at 0x102e6fe20>
+2024-12-18 09:52:57 - INFO - Executing recovery step: <function <lambda> at 0x102e6fe20>
+2024-12-18 09:52:57 - INFO - Executing recovery step: <function <lambda> at 0x102e6fce0>
+2024-12-18 09:52:57 - INFO - Executing recovery step: <function <lambda> at 0x102e6fce0>
+2024-12-18 09:52:57 - INFO - Executing recovery step: <function <lambda> at 0x102e6fce0>
+2024-12-18 09:52:57 - INFO - Executing recovery step: <function <lambda> at 0x102e6f4c0>
+2024-12-18 09:52:57 - INFO - Executing recovery step: <function <lambda> at 0x102e6f4c0>
+2024-12-18 09:52:57 - INFO - Executing recovery step: <function <lambda> at 0x102e6f4c0>
+2024-12-18 09:52:59 - INFO - Attempt 2 for command.
+2024-12-18 09:52:59 - INFO - Attempt 2 for command.
+2024-12-18 09:52:59 - INFO - Attempt 2 for command.
+2024-12-18 09:52:59 - ERROR - Attempt 2 failed: Simulated ValueError for testing.
+2024-12-18 09:52:59 - ERROR - Attempt 2 failed: Simulated ValueError for testing.
+2024-12-18 09:52:59 - ERROR - Attempt 2 failed: Simulated ValueError for testing.
+2024-12-18 09:52:59 - INFO - Executing recovery step: <function <lambda> at 0x102e6fe20>
+2024-12-18 09:52:59 - INFO - Executing recovery step: <function <lambda> at 0x102e6fe20>
+2024-12-18 09:52:59 - INFO - Executing recovery step: <function <lambda> at 0x102e6fe20>
+2024-12-18 09:52:59 - INFO - Executing recovery step: <function <lambda> at 0x102e6fce0>
+2024-12-18 09:52:59 - INFO - Executing recovery step: <function <lambda> at 0x102e6fce0>
+2024-12-18 09:52:59 - INFO - Executing recovery step: <function <lambda> at 0x102e6fce0>
+2024-12-18 09:52:59 - INFO - Executing recovery step: <function <lambda> at 0x102e6f4c0>
+2024-12-18 09:52:59 - INFO - Executing recovery step: <function <lambda> at 0x102e6f4c0>
+2024-12-18 09:52:59 - INFO - Executing recovery step: <function <lambda> at 0x102e6f4c0>
+2024-12-18 09:53:01 - INFO - Attempt 3 for command.
+2024-12-18 09:53:01 - INFO - Attempt 3 for command.
+2024-12-18 09:53:01 - INFO - Attempt 3 for command.
+2024-12-18 09:53:01 - ERROR - Attempt 3 failed: Simulated ValueError for testing.
+2024-12-18 09:53:01 - ERROR - Attempt 3 failed: Simulated ValueError for testing.
+2024-12-18 09:53:01 - ERROR - Attempt 3 failed: Simulated ValueError for testing.
+2024-12-18 09:53:01 - INFO - Executing recovery step: <function <lambda> at 0x102e6fe20>
+2024-12-18 09:53:01 - INFO - Executing recovery step: <function <lambda> at 0x102e6fe20>
+2024-12-18 09:53:01 - INFO - Executing recovery step: <function <lambda> at 0x102e6fe20>
+2024-12-18 09:53:01 - INFO - Executing recovery step: <function <lambda> at 0x102e6fce0>
+2024-12-18 09:53:01 - INFO - Executing recovery step: <function <lambda> at 0x102e6fce0>
+2024-12-18 09:53:01 - INFO - Executing recovery step: <function <lambda> at 0x102e6fce0>
+2024-12-18 09:53:01 - INFO - Executing recovery step: <function <lambda> at 0x102e6f4c0>
+2024-12-18 09:53:01 - INFO - Executing recovery step: <function <lambda> at 0x102e6f4c0>
+2024-12-18 09:53:01 - INFO - Executing recovery step: <function <lambda> at 0x102e6f4c0>
+2024-12-18 09:53:03 - ERROR - All recovery attempts failed. Manual intervention required.
+2024-12-18 09:53:03 - ERROR - All recovery attempts failed. Manual intervention required.
+2024-12-18 09:53:03 - ERROR - All recovery attempts failed. Manual intervention required.
+2024-12-18 09:53:03 - ERROR - Error encountered: Recovery failed after 3 attempts.
+2024-12-18 09:53:03 - ERROR - Error encountered: Recovery failed after 3 attempts.
+2024-12-18 09:53:03 - ERROR - Error encountered: Recovery failed after 3 attempts.
+2024-12-18 09:53:03 - INFO - State successfully saved.
+2024-12-18 09:53:03 - INFO - State successfully saved.
+2024-12-18 09:53:03 - INFO - State successfully saved.
+2024-12-18 09:53:03 - INFO - State updated: test_key = initial_state
+2024-12-18 09:53:03 - INFO - State updated: test_key = initial_state
+2024-12-18 09:53:03 - INFO - State updated: test_key = initial_state
+2024-12-18 09:53:03 - ERROR - Test error for logging
+2024-12-18 09:53:03 - ERROR - Test error for logging
+2024-12-18 09:53:03 - ERROR - Test error for logging
+2024-12-18 09:53:03 - INFO - State successfully saved.
+2024-12-18 09:53:03 - INFO - State successfully saved.
+2024-12-18 09:53:03 - INFO - State successfully saved.
+2024-12-18 09:53:03 - INFO - State updated: test_key = initial_state
+2024-12-18 09:53:03 - INFO - State updated: test_key = initial_state
+2024-12-18 09:53:03 - INFO - State updated: test_key = initial_state
+2024-12-18 09:53:03 - INFO - State successfully saved.
+2024-12-18 09:53:03 - INFO - State successfully saved.
+2024-12-18 09:53:03 - INFO - State successfully saved.
+2024-12-18 09:53:03 - INFO - State updated: test_key = updated_state
+2024-12-18 09:53:03 - INFO - State updated: test_key = updated_state
+2024-12-18 09:53:03 - INFO - State updated: test_key = updated_state
+2024-12-18 09:55:58 - INFO - Loguru logger initialized.
+2024-12-18 09:55:58 - INFO - Loguru logger initialized.
+2024-12-18 09:55:58 - INFO - Loguru logger initialized.
+2024-12-18 09:55:58 - INFO - Loguru logger initialized.
+2024-12-18 09:55:58 - INFO - Loguru logger initialized.
+2024-12-18 09:57:53 - INFO - Test log entry: Info
+2024-12-18 09:57:53 - INFO - Test log entry: Info
+2024-12-18 09:57:53 - INFO - Test log entry: Info
+2024-12-18 09:57:53 - WARNING - Test log entry: Warning
+2024-12-18 09:57:53 - WARNING - Test log entry: Warning
+2024-12-18 09:57:53 - WARNING - Test log entry: Warning
+2024-12-18 09:57:53 - ERROR - Test log entry: Error
+2024-12-18 09:57:53 - ERROR - Test log entry: Error
+2024-12-18 09:57:53 - ERROR - Test log entry: Error
+2024-12-18 09:58:15 - INFO - Verify log entry: Info
+2024-12-18 09:58:15 - INFO - Verify log entry: Info
+2024-12-18 09:58:15 - INFO - Verify log entry: Info
+2024-12-18 09:58:15 - WARNING - Verify log entry: Warning
+2024-12-18 09:58:15 - WARNING - Verify log entry: Warning
+2024-12-18 09:58:15 - WARNING - Verify log entry: Warning
+2024-12-18 09:58:15 - ERROR - Verify log entry: Error
+2024-12-18 09:58:15 - ERROR - Verify log entry: Error
+2024-12-18 09:58:15 - ERROR - Verify log entry: Error

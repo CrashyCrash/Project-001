@@ -60,7 +60,7 @@ class ErrorManager:
                 app_logger.log_info(f"Attempt {attempt + 1} to execute the command.")
                 failing_command()
                 app_logger.log_info("Command executed successfully.")
-                return True  # Return True if the command succeeds
+                return True
             except Exception as e:
                 app_logger.log_error(f"Attempt {attempt + 1} failed: {e}")
                 for step in recovery_steps:
@@ -79,7 +79,7 @@ class ErrorManager:
                 time.sleep(2)
 
         app_logger.log_error("All recovery attempts failed.")
-        return False  # Return False if all attempts fail
+        return False
 
     def create_package_json(self):
         """
@@ -136,3 +136,14 @@ class ErrorManager:
         except subprocess.CalledProcessError as e:
             app_logger.log_error(f"Failed to fix permissions for {file_path}: {e}")
             raise
+
+# Example usage
+if __name__ == '__main__':
+    error_manager = ErrorManager()
+    try:
+        error_manager.handle_error(
+            failing_command=lambda: subprocess.run(["npm", "install"], check=True),
+            error_type="missing_package_json"
+        )
+    except Exception as e:
+        app_logger.log_error(f"Error encountered: {e}")

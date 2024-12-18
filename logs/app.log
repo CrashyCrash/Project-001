@@ -172,3 +172,39 @@
 2024-12-18 00:13:22,655 - MyLogger - INFO - Initializing Custom Profile...
 2024-12-18 09:45:44,182 - MyLogger - INFO - Python logger initialized.
 2024-12-18 09:45:44,190 - MyLogger - INFO - This is an informational message from the Logger class.
+2024-12-18 09:52:57,420 - MyLogger - INFO - Python logger initialized.
+2024-12-18 09:52:57,521 - MyLogger - INFO - All required libraries are installed successfully.
+2024-12-18 09:52:57,523 - MyLogger - INFO - Python logger initialized.
+2024-12-18 09:52:57,527 - MyLogger - INFO - Python logger initialized.
+2024-12-18 09:52:57,530 - MyLogger - INFO - Attempt 1 for command.
+2024-12-18 09:52:57,530 - MyLogger - ERROR - Attempt 1 failed: Simulated ValueError for testing.
+2024-12-18 09:52:57,530 - MyLogger - INFO - Executing recovery step: <function <lambda> at 0x102e6fe20>
+2024-12-18 09:52:57,530 - MyLogger - INFO - Executing recovery step: <function <lambda> at 0x102e6fce0>
+2024-12-18 09:52:57,530 - MyLogger - INFO - Executing recovery step: <function <lambda> at 0x102e6f4c0>
+2024-12-18 09:52:59,535 - MyLogger - INFO - Attempt 2 for command.
+2024-12-18 09:52:59,536 - MyLogger - ERROR - Attempt 2 failed: Simulated ValueError for testing.
+2024-12-18 09:52:59,536 - MyLogger - INFO - Executing recovery step: <function <lambda> at 0x102e6fe20>
+2024-12-18 09:52:59,537 - MyLogger - INFO - Executing recovery step: <function <lambda> at 0x102e6fce0>
+2024-12-18 09:52:59,537 - MyLogger - INFO - Executing recovery step: <function <lambda> at 0x102e6f4c0>
+2024-12-18 09:53:01,541 - MyLogger - INFO - Attempt 3 for command.
+2024-12-18 09:53:01,542 - MyLogger - ERROR - Attempt 3 failed: Simulated ValueError for testing.
+2024-12-18 09:53:01,542 - MyLogger - INFO - Executing recovery step: <function <lambda> at 0x102e6fe20>
+2024-12-18 09:53:01,543 - MyLogger - INFO - Executing recovery step: <function <lambda> at 0x102e6fce0>
+2024-12-18 09:53:01,543 - MyLogger - INFO - Executing recovery step: <function <lambda> at 0x102e6f4c0>
+2024-12-18 09:53:03,544 - MyLogger - ERROR - All recovery attempts failed. Manual intervention required.
+2024-12-18 09:53:03,545 - MyLogger - ERROR - Error encountered: Recovery failed after 3 attempts.
+2024-12-18 09:53:03,548 - MyLogger - INFO - State successfully saved.
+2024-12-18 09:53:03,548 - MyLogger - INFO - State updated: test_key = initial_state
+2024-12-18 09:53:03,548 - MyLogger - ERROR - Test error for logging
+2024-12-18 09:53:03,549 - MyLogger - INFO - State successfully saved.
+2024-12-18 09:53:03,549 - MyLogger - INFO - State updated: test_key = initial_state
+2024-12-18 09:53:03,550 - MyLogger - INFO - State successfully saved.
+2024-12-18 09:53:03,550 - MyLogger - INFO - State updated: test_key = updated_state
+2024-12-18 09:55:58,954 - MyLogger - INFO - Python logger initialized.
+2024-12-18 09:55:58,958 - MyLogger - INFO - Python logger initialized.
+2024-12-18 09:57:53,836 - MyLogger - INFO - Test log entry: Info
+2024-12-18 09:57:53,837 - MyLogger - WARNING - Test log entry: Warning
+2024-12-18 09:57:53,838 - MyLogger - ERROR - Test log entry: Error
+2024-12-18 09:58:15,558 - MyLogger - INFO - Verify log entry: Info
+2024-12-18 09:58:15,558 - MyLogger - WARNING - Verify log entry: Warning
+2024-12-18 09:58:15,559 - MyLogger - ERROR - Verify log entry: Error

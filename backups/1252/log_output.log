@@ -1,0 +1,565 @@
+2024-12-18 10:13:02.123 | INFO     | logger:log_info:15 - All required libraries are installed successfully.
+2024-12-18 10:13:02.131 | INFO     | logger:log_info:15 - Attempt 1 for command.
+2024-12-18 10:13:02.131 | INFO     | logger:log_info:15 - Attempt 1 for command.
+2024-12-18 10:13:02.131 | INFO     | logger:log_info:15 - Attempt 1 for command.
+2024-12-18 10:13:02.131 | ERROR    | logger:log_error:18 - Attempt 1 failed: Simulated ValueError for testing.
+2024-12-18 10:13:02.131 | ERROR    | logger:log_error:18 - Attempt 1 failed: Simulated ValueError for testing.
+2024-12-18 10:13:02.131 | ERROR    | logger:log_error:18 - Attempt 1 failed: Simulated ValueError for testing.
+2024-12-18 10:13:02.131 | INFO     | logger:log_info:15 - Executing recovery step: <function <lambda> at 0x10286f740>
+2024-12-18 10:13:02.131 | INFO     | logger:log_info:15 - Executing recovery step: <function <lambda> at 0x10286f740>
+2024-12-18 10:13:02.131 | INFO     | logger:log_info:15 - Executing recovery step: <function <lambda> at 0x10286f740>
+2024-12-18 10:13:02.131 | INFO     | logger:log_info:15 - Executing recovery step: <function <lambda> at 0x10286f600>
+2024-12-18 10:13:02.131 | INFO     | logger:log_info:15 - Executing recovery step: <function <lambda> at 0x10286f600>
+2024-12-18 10:13:02.131 | INFO     | logger:log_info:15 - Executing recovery step: <function <lambda> at 0x10286f600>
+2024-12-18 10:13:02.131 | INFO     | logger:log_info:15 - Executing recovery step: <function <lambda> at 0x10286ede0>
+2024-12-18 10:13:02.131 | INFO     | logger:log_info:15 - Executing recovery step: <function <lambda> at 0x10286ede0>
+2024-12-18 10:13:02.131 | INFO     | logger:log_info:15 - Executing recovery step: <function <lambda> at 0x10286ede0>
+2024-12-18 10:13:04.136 | INFO     | logger:log_info:15 - Attempt 2 for command.
+2024-12-18 10:13:04.136 | INFO     | logger:log_info:15 - Attempt 2 for command.
+2024-12-18 10:13:04.136 | INFO     | logger:log_info:15 - Attempt 2 for command.
+2024-12-18 10:13:04.137 | ERROR    | logger:log_error:18 - Attempt 2 failed: Simulated ValueError for testing.
+2024-12-18 10:13:04.137 | ERROR    | logger:log_error:18 - Attempt 2 failed: Simulated ValueError for testing.
+2024-12-18 10:13:04.137 | ERROR    | logger:log_error:18 - Attempt 2 failed: Simulated ValueError for testing.
+2024-12-18 10:13:04.138 | INFO     | logger:log_info:15 - Executing recovery step: <function <lambda> at 0x10286f740>
+2024-12-18 10:13:04.138 | INFO     | logger:log_info:15 - Executing recovery step: <function <lambda> at 0x10286f740>
+2024-12-18 10:13:04.138 | INFO     | logger:log_info:15 - Executing recovery step: <function <lambda> at 0x10286f740>
+2024-12-18 10:13:04.138 | INFO     | logger:log_info:15 - Executing recovery step: <function <lambda> at 0x10286f600>
+2024-12-18 10:13:04.138 | INFO     | logger:log_info:15 - Executing recovery step: <function <lambda> at 0x10286f600>
+2024-12-18 10:13:04.138 | INFO     | logger:log_info:15 - Executing recovery step: <function <lambda> at 0x10286f600>
+2024-12-18 10:13:04.139 | INFO     | logger:log_info:15 - Executing recovery step: <function <lambda> at 0x10286ede0>
+2024-12-18 10:13:04.139 | INFO     | logger:log_info:15 - Executing recovery step: <function <lambda> at 0x10286ede0>
+2024-12-18 10:13:04.139 | INFO     | logger:log_info:15 - Executing recovery step: <function <lambda> at 0x10286ede0>
+2024-12-18 10:13:06.141 | INFO     | logger:log_info:15 - Attempt 3 for command.
+2024-12-18 10:13:06.141 | INFO     | logger:log_info:15 - Attempt 3 for command.
+2024-12-18 10:13:06.141 | INFO     | logger:log_info:15 - Attempt 3 for command.
+2024-12-18 10:13:06.141 | ERROR    | logger:log_error:18 - Attempt 3 failed: Simulated ValueError for testing.
+2024-12-18 10:13:06.141 | ERROR    | logger:log_error:18 - Attempt 3 failed: Simulated ValueError for testing.
+2024-12-18 10:13:06.141 | ERROR    | logger:log_error:18 - Attempt 3 failed: Simulated ValueError for testing.
+2024-12-18 10:13:06.142 | INFO     | logger:log_info:15 - Executing recovery step: <function <lambda> at 0x10286f740>
+2024-12-18 10:13:06.142 | INFO     | logger:log_info:15 - Executing recovery step: <function <lambda> at 0x10286f740>
+2024-12-18 10:13:06.142 | INFO     | logger:log_info:15 - Executing recovery step: <function <lambda> at 0x10286f740>
+2024-12-18 10:13:06.142 | INFO     | logger:log_info:15 - Executing recovery step: <function <lambda> at 0x10286f600>
+2024-12-18 10:13:06.142 | INFO     | logger:log_info:15 - Executing recovery step: <function <lambda> at 0x10286f600>
+2024-12-18 10:13:06.142 | INFO     | logger:log_info:15 - Executing recovery step: <function <lambda> at 0x10286f600>
+2024-12-18 10:13:06.142 | INFO     | logger:log_info:15 - Executing recovery step: <function <lambda> at 0x10286ede0>
+2024-12-18 10:13:06.142 | INFO     | logger:log_info:15 - Executing recovery step: <function <lambda> at 0x10286ede0>
+2024-12-18 10:13:06.142 | INFO     | logger:log_info:15 - Executing recovery step: <function <lambda> at 0x10286ede0>
+2024-12-18 10:13:08.146 | ERROR    | logger:log_error:18 - All recovery attempts failed. Manual intervention required.
+2024-12-18 10:13:08.146 | ERROR    | logger:log_error:18 - All recovery attempts failed. Manual intervention required.
+2024-12-18 10:13:08.146 | ERROR    | logger:log_error:18 - All recovery attempts failed. Manual intervention required.
+2024-12-18 10:13:08.147 | ERROR    | logger:log_error:18 - Error encountered: Recovery failed after 3 attempts.
+2024-12-18 10:13:08.147 | ERROR    | logger:log_error:18 - Error encountered: Recovery failed after 3 attempts.
+2024-12-18 10:13:08.147 | ERROR    | logger:log_error:18 - Error encountered: Recovery failed after 3 attempts.
+2024-12-18 10:13:08.150 | INFO     | logger:log_info:15 - State successfully saved.
+2024-12-18 10:13:08.150 | INFO     | logger:log_info:15 - State successfully saved.
+2024-12-18 10:13:08.150 | INFO     | logger:log_info:15 - State successfully saved.
+2024-12-18 10:13:08.150 | INFO     | logger:log_info:15 - State updated: test_key = initial_state
+2024-12-18 10:13:08.150 | INFO     | logger:log_info:15 - State updated: test_key = initial_state
+2024-12-18 10:13:08.150 | INFO     | logger:log_info:15 - State updated: test_key = initial_state
+2024-12-18 10:13:08.150 | ERROR    | logger:log_error:18 - Test error for logging
+2024-12-18 10:13:08.150 | ERROR    | logger:log_error:18 - Test error for logging
+2024-12-18 10:13:08.150 | ERROR    | logger:log_error:18 - Test error for logging
+2024-12-18 10:13:08.151 | INFO     | logger:log_info:15 - State successfully saved.
+2024-12-18 10:13:08.151 | INFO     | logger:log_info:15 - State successfully saved.
+2024-12-18 10:13:08.151 | INFO     | logger:log_info:15 - State successfully saved.
+2024-12-18 10:13:08.151 | INFO     | logger:log_info:15 - State updated: test_key = initial_state
+2024-12-18 10:13:08.151 | INFO     | logger:log_info:15 - State updated: test_key = initial_state
+2024-12-18 10:13:08.151 | INFO     | logger:log_info:15 - State updated: test_key = initial_state
+2024-12-18 10:13:08.151 | INFO     | logger:log_info:15 - State successfully saved.
+2024-12-18 10:13:08.151 | INFO     | logger:log_info:15 - State successfully saved.
+2024-12-18 10:13:08.151 | INFO     | logger:log_info:15 - State successfully saved.
+2024-12-18 10:13:08.151 | INFO     | logger:log_info:15 - State updated: test_key = updated_state
+2024-12-18 10:13:08.151 | INFO     | logger:log_info:15 - State updated: test_key = updated_state
+2024-12-18 10:13:08.151 | INFO     | logger:log_info:15 - State updated: test_key = updated_state
+2024-12-18 10:14:46.726 | INFO     | logger:log_info:31 - All required libraries are installed successfully.
+2024-12-18 10:14:46.730 | INFO     | logger:log_info:31 - Attempt 1 for command.
+2024-12-18 10:14:46.730 | ERROR    | logger:log_error:34 - Attempt 1 failed: Simulated ValueError for testing.
+2024-12-18 10:14:46.730 | INFO     | logger:log_info:31 - Executing recovery step: <function <lambda> at 0x10257b6a0>
+2024-12-18 10:14:46.730 | INFO     | logger:log_info:31 - Executing recovery step: <function <lambda> at 0x10257b560>
+2024-12-18 10:14:46.730 | INFO     | logger:log_info:31 - Executing recovery step: <function <lambda> at 0x10257b740>
+2024-12-18 10:14:48.735 | INFO     | logger:log_info:31 - Attempt 2 for command.
+2024-12-18 10:14:48.735 | ERROR    | logger:log_error:34 - Attempt 2 failed: Simulated ValueError for testing.
+2024-12-18 10:14:48.735 | INFO     | logger:log_info:31 - Executing recovery step: <function <lambda> at 0x10257b6a0>
+2024-12-18 10:14:48.736 | INFO     | logger:log_info:31 - Executing recovery step: <function <lambda> at 0x10257b560>
+2024-12-18 10:14:48.736 | INFO     | logger:log_info:31 - Executing recovery step: <function <lambda> at 0x10257b740>
+2024-12-18 10:14:50.737 | INFO     | logger:log_info:31 - Attempt 3 for command.
+2024-12-18 10:14:50.738 | ERROR    | logger:log_error:34 - Attempt 3 failed: Simulated ValueError for testing.
+2024-12-18 10:14:50.738 | INFO     | logger:log_info:31 - Executing recovery step: <function <lambda> at 0x10257b6a0>
+2024-12-18 10:14:50.738 | INFO     | logger:log_info:31 - Executing recovery step: <function <lambda> at 0x10257b560>
+2024-12-18 10:14:50.738 | INFO     | logger:log_info:31 - Executing recovery step: <function <lambda> at 0x10257b740>
+2024-12-18 10:14:52.743 | ERROR    | logger:log_error:34 - All recovery attempts failed. Manual intervention required.
+2024-12-18 10:14:52.744 | ERROR    | logger:log_error:34 - Error encountered: Recovery failed after 3 attempts.
+2024-12-18 10:14:52.747 | INFO     | logger:log_info:31 - State successfully saved.
+2024-12-18 10:14:52.747 | INFO     | logger:log_info:31 - State updated: test_key = initial_state
+2024-12-18 10:14:52.747 | ERROR    | logger:log_error:34 - Test error for logging
+2024-12-18 10:14:52.748 | INFO     | logger:log_info:31 - State successfully saved.
+2024-12-18 10:14:52.748 | INFO     | logger:log_info:31 - State updated: test_key = initial_state
+2024-12-18 10:14:52.748 | INFO     | logger:log_info:31 - State successfully saved.
+2024-12-18 10:14:52.748 | INFO     | logger:log_info:31 - State updated: test_key = updated_state
+2024-12-18 10:19:49.310 | INFO     | logger:log_info:31 - All required libraries are installed successfully.
+2024-12-18 10:20:35.773 | INFO     | logger:log_info:31 - All required libraries are installed successfully.
+2024-12-18 10:21:10.061 | INFO     | logger:log_info:31 - All required libraries are installed successfully.
+2024-12-18 10:22:10.676 | INFO     | logger:log_info:31 - All required libraries are installed successfully.
+2024-12-18 10:22:50.298 | INFO     | logger:log_info:31 - All required libraries are installed successfully.
+2024-12-18 10:24:33.357 | INFO     | logger:log_info:31 - All required libraries are installed successfully.
+2024-12-18 10:25:17.400 | INFO     | logger:log_info:31 - All required libraries are installed successfully.
+2024-12-18 10:25:17.402 | INFO     | logger:log_info:31 - Attempt 1 for command.
+2024-12-18 10:25:17.402 | ERROR    | logger:log_error:34 - Attempt 1 failed: Simulated ValueError for testing.
+2024-12-18 10:25:17.402 | INFO     | logger:log_info:31 - Executing recovery step: <function <lambda> at 0x1024eede0>
+2024-12-18 10:25:17.402 | INFO     | logger:log_info:31 - Executing recovery step: <function <lambda> at 0x1024eee80>
+2024-12-18 10:25:17.402 | INFO     | logger:log_info:31 - Executing recovery step: <function <lambda> at 0x1024ef380>
+2024-12-18 10:25:19.408 | INFO     | logger:log_info:31 - Attempt 2 for command.
+2024-12-18 10:25:19.408 | ERROR    | logger:log_error:34 - Attempt 2 failed: Simulated ValueError for testing.
+2024-12-18 10:25:19.409 | INFO     | logger:log_info:31 - Executing recovery step: <function <lambda> at 0x1024eede0>
+2024-12-18 10:25:19.409 | INFO     | logger:log_info:31 - Executing recovery step: <function <lambda> at 0x1024eee80>
+2024-12-18 10:25:19.409 | INFO     | logger:log_info:31 - Executing recovery step: <function <lambda> at 0x1024ef380>
+2024-12-18 10:25:21.413 | INFO     | logger:log_info:31 - Attempt 3 for command.
+2024-12-18 10:25:21.413 | ERROR    | logger:log_error:34 - Attempt 3 failed: Simulated ValueError for testing.
+2024-12-18 10:25:21.413 | INFO     | logger:log_info:31 - Executing recovery step: <function <lambda> at 0x1024eede0>
+2024-12-18 10:25:21.413 | INFO     | logger:log_info:31 - Executing recovery step: <function <lambda> at 0x1024eee80>
+2024-12-18 10:25:21.414 | INFO     | logger:log_info:31 - Executing recovery step: <function <lambda> at 0x1024ef380>
+2024-12-18 10:25:23.417 | ERROR    | logger:log_error:34 - All recovery attempts failed. Manual intervention required.
+2024-12-18 10:31:53.699 | INFO     | logger:log_info:31 - All required libraries are installed successfully.
+2024-12-18 12:02:53.519 | INFO     | logger:log_info:31 - All required libraries are installed successfully.
+2024-12-18 12:02:53.522 | INFO     | logger:log_info:31 - Initializing test environment manager.
+2024-12-18 12:02:53.523 | INFO     | logger:log_info:31 - Logger is initialized.
+2024-12-18 12:02:53.523 | INFO     | logger:log_info:31 - Attempt 1 for command.
+2024-12-18 12:02:53.523 | ERROR    | logger:log_error:34 - Attempt 1 failed: Simulated ValueError for testing.
+2024-12-18 12:02:53.523 | INFO     | logger:log_info:31 - Executing recovery step: <function <lambda> at 0x102863600>
+2024-12-18 12:02:53.523 | INFO     | logger:log_info:31 - Executing recovery step: <function <lambda> at 0x102863420>
+2024-12-18 12:02:53.523 | INFO     | logger:log_info:31 - Executing recovery step: <function <lambda> at 0x102863560>
+2024-12-18 12:02:55.529 | INFO     | logger:log_info:31 - Attempt 2 for command.
+2024-12-18 12:02:55.529 | ERROR    | logger:log_error:34 - Attempt 2 failed: Simulated ValueError for testing.
+2024-12-18 12:02:55.529 | INFO     | logger:log_info:31 - Executing recovery step: <function <lambda> at 0x102863600>
+2024-12-18 12:02:55.529 | INFO     | logger:log_info:31 - Executing recovery step: <function <lambda> at 0x102863420>
+2024-12-18 12:02:55.529 | INFO     | logger:log_info:31 - Executing recovery step: <function <lambda> at 0x102863560>
+2024-12-18 12:02:57.535 | INFO     | logger:log_info:31 - Attempt 3 for command.
+2024-12-18 12:02:57.535 | ERROR    | logger:log_error:34 - Attempt 3 failed: Simulated ValueError for testing.
+2024-12-18 12:02:57.536 | INFO     | logger:log_info:31 - Executing recovery step: <function <lambda> at 0x102863600>
+2024-12-18 12:02:57.536 | INFO     | logger:log_info:31 - Executing recovery step: <function <lambda> at 0x102863420>
+2024-12-18 12:02:57.536 | INFO     | logger:log_info:31 - Executing recovery step: <function <lambda> at 0x102863560>
+2024-12-18 12:02:59.536 | ERROR    | logger:log_error:34 - All recovery attempts failed. Manual intervention required.
+2024-12-18 12:02:59.537 | ERROR    | logger:log_error:34 - Error encountered: Recovery failed after 3 attempts.
+2024-12-18 12:02:59.541 | INFO     | logger:log_info:31 - State successfully saved.
+2024-12-18 12:02:59.541 | INFO     | logger:log_info:31 - State updated: test_key = initial_state
+2024-12-18 12:02:59.541 | ERROR    | logger:log_error:34 - Test failed: Test error for logging
+2024-12-18 12:02:59.541 | INFO     | logger:log_info:31 - State successfully saved.
+2024-12-18 12:02:59.542 | INFO     | logger:log_info:31 - State updated: test_key = initial_state
+2024-12-18 12:02:59.542 | INFO     | logger:log_info:31 - State successfully saved.
+2024-12-18 12:02:59.542 | INFO     | logger:log_info:31 - State updated: test_key = updated_state
+2024-12-18 12:07:15.308 | INFO     | logger:log_info:31 - All required libraries are installed successfully.
+2024-12-18 12:07:15.312 | INFO     | logger:log_info:31 - Initializing test environment manager.
+2024-12-18 12:07:15.312 | INFO     | logger:log_info:31 - Logger is initialized.
+2024-12-18 12:07:15.312 | INFO     | logger:log_info:31 - Attempt 1 for command.
+2024-12-18 12:07:15.312 | ERROR    | logger:log_error:34 - Attempt 1 failed: Simulated ValueError for testing.
+2024-12-18 12:07:15.313 | INFO     | logger:log_info:31 - Executing recovery step: <function <lambda> at 0x102d4b600>
+2024-12-18 12:07:15.313 | INFO     | logger:log_info:31 - Executing recovery step: <function <lambda> at 0x102d4b420>
+2024-12-18 12:07:15.313 | INFO     | logger:log_info:31 - Executing recovery step: <function <lambda> at 0x102d4b560>
+2024-12-18 12:07:17.318 | INFO     | logger:log_info:31 - Attempt 2 for command.
+2024-12-18 12:07:17.318 | ERROR    | logger:log_error:34 - Attempt 2 failed: Simulated ValueError for testing.
+2024-12-18 12:07:17.318 | INFO     | logger:log_info:31 - Executing recovery step: <function <lambda> at 0x102d4b600>
+2024-12-18 12:07:17.318 | INFO     | logger:log_info:31 - Executing recovery step: <function <lambda> at 0x102d4b420>
+2024-12-18 12:07:17.319 | INFO     | logger:log_info:31 - Executing recovery step: <function <lambda> at 0x102d4b560>
+2024-12-18 12:07:19.324 | INFO     | logger:log_info:31 - Attempt 3 for command.
+2024-12-18 12:07:19.324 | ERROR    | logger:log_error:34 - Attempt 3 failed: Simulated ValueError for testing.
+2024-12-18 12:07:19.324 | INFO     | logger:log_info:31 - Executing recovery step: <function <lambda> at 0x102d4b600>
+2024-12-18 12:07:19.324 | INFO     | logger:log_info:31 - Executing recovery step: <function <lambda> at 0x102d4b420>
+2024-12-18 12:07:19.325 | INFO     | logger:log_info:31 - Executing recovery step: <function <lambda> at 0x102d4b560>
+2024-12-18 12:07:21.330 | ERROR    | logger:log_error:34 - All recovery attempts failed. Manual intervention required.
+2024-12-18 12:07:21.330 | ERROR    | logger:log_error:34 - Error encountered: Recovery failed after 3 attempts.
+2024-12-18 12:07:21.334 | INFO     | logger:log_info:31 - State successfully saved.
+2024-12-18 12:07:21.334 | INFO     | logger:log_info:31 - State updated: test_key = initial_state
+2024-12-18 12:07:21.335 | ERROR    | logger:log_error:34 - Test failed: Test error for logging
+2024-12-18 12:07:21.335 | INFO     | logger:log_info:31 - State successfully saved.
+2024-12-18 12:07:21.335 | INFO     | logger:log_info:31 - State updated: test_key = initial_state
+2024-12-18 12:07:21.335 | INFO     | logger:log_info:31 - State successfully saved.
+2024-12-18 12:07:21.335 | INFO     | logger:log_info:31 - State updated: test_key = updated_state
+2024-12-18 12:07:33.878 | INFO     | logger:log_info:31 - Initializing test environment manager.
+2024-12-18 12:07:33.879 | INFO     | logger:log_info:31 - State successfully saved.
+2024-12-18 12:07:33.879 | INFO     | logger:log_info:31 - State updated: test_key = initial_state
+2024-12-18 12:07:33.879 | ERROR    | logger:log_error:34 - Test failed: Test error for logging
+2024-12-18 12:07:33.879 | INFO     | logger:log_info:31 - State successfully saved.
+2024-12-18 12:07:33.879 | INFO     | logger:log_info:31 - State updated: test_key = initial_state
+2024-12-18 12:07:33.879 | INFO     | logger:log_info:31 - State successfully saved.
+2024-12-18 12:07:33.879 | INFO     | logger:log_info:31 - State updated: test_key = updated_state
+2024-12-18 12:07:40.817 | INFO     | logger:log_info:31 - Logger is initialized.
+2024-12-18 12:07:40.817 | INFO     | logger:log_info:31 - Attempt 1 for command.
+2024-12-18 12:07:40.817 | ERROR    | logger:log_error:34 - Attempt 1 failed: Simulated ValueError for testing.
+2024-12-18 12:07:40.817 | INFO     | logger:log_info:31 - Executing recovery step: <function <lambda> at 0x104d9a660>
+2024-12-18 12:07:40.817 | INFO     | logger:log_info:31 - Executing recovery step: <function <lambda> at 0x105b6f4c0>
+2024-12-18 12:07:40.817 | INFO     | logger:log_info:31 - Executing recovery step: <function <lambda> at 0x105b6f420>
+2024-12-18 12:07:42.823 | INFO     | logger:log_info:31 - Attempt 2 for command.
+2024-12-18 12:07:42.823 | ERROR    | logger:log_error:34 - Attempt 2 failed: Simulated ValueError for testing.
+2024-12-18 12:07:42.824 | INFO     | logger:log_info:31 - Executing recovery step: <function <lambda> at 0x104d9a660>
+2024-12-18 12:07:42.824 | INFO     | logger:log_info:31 - Executing recovery step: <function <lambda> at 0x105b6f4c0>
+2024-12-18 12:07:42.824 | INFO     | logger:log_info:31 - Executing recovery step: <function <lambda> at 0x105b6f420>
+2024-12-18 12:07:44.826 | INFO     | logger:log_info:31 - Attempt 3 for command.
+2024-12-18 12:07:44.826 | ERROR    | logger:log_error:34 - Attempt 3 failed: Simulated ValueError for testing.
+2024-12-18 12:07:44.826 | INFO     | logger:log_info:31 - Executing recovery step: <function <lambda> at 0x104d9a660>
+2024-12-18 12:07:44.827 | INFO     | logger:log_info:31 - Executing recovery step: <function <lambda> at 0x105b6f4c0>
+2024-12-18 12:07:44.827 | INFO     | logger:log_info:31 - Executing recovery step: <function <lambda> at 0x105b6f420>
+2024-12-18 12:07:46.832 | ERROR    | logger:log_error:34 - All recovery attempts failed. Manual intervention required.
+2024-12-18 12:07:46.832 | ERROR    | logger:log_error:34 - Error encountered: Recovery failed after 3 attempts.
+2024-12-18 12:10:02.448 | INFO     | logger:log_info:32 - All required libraries are installed successfully.
+2024-12-18 12:10:02.451 | INFO     | logger:log_info:32 - Initializing test environment manager.
+2024-12-18 12:10:02.451 | INFO     | logger:log_info:32 - Logger is initialized.
+2024-12-18 12:10:02.451 | INFO     | logger:log_info:32 - Attempt 1 for command.
+2024-12-18 12:10:02.452 | ERROR    | logger:log_error:35 - Attempt 1 failed: Simulated ValueError for testing.
+2024-12-18 12:10:02.452 | INFO     | logger:log_info:32 - Executing recovery step: <function <lambda> at 0x1064db600>
+2024-12-18 12:10:02.452 | INFO     | logger:log_info:32 - Executing recovery step: <function <lambda> at 0x1064db420>
+2024-12-18 12:10:02.452 | INFO     | logger:log_info:32 - Executing recovery step: <function <lambda> at 0x1064db560>
+2024-12-18 12:10:04.457 | INFO     | logger:log_info:32 - Attempt 2 for command.
+2024-12-18 12:10:04.457 | ERROR    | logger:log_error:35 - Attempt 2 failed: Simulated ValueError for testing.
+2024-12-18 12:10:04.458 | INFO     | logger:log_info:32 - Executing recovery step: <function <lambda> at 0x1064db600>
+2024-12-18 12:10:04.458 | INFO     | logger:log_info:32 - Executing recovery step: <function <lambda> at 0x1064db420>
+2024-12-18 12:10:04.458 | INFO     | logger:log_info:32 - Executing recovery step: <function <lambda> at 0x1064db560>
+2024-12-18 12:10:06.461 | INFO     | logger:log_info:32 - Attempt 3 for command.
+2024-12-18 12:10:06.461 | ERROR    | logger:log_error:35 - Attempt 3 failed: Simulated ValueError for testing.
+2024-12-18 12:10:06.462 | INFO     | logger:log_info:32 - Executing recovery step: <function <lambda> at 0x1064db600>
+2024-12-18 12:10:06.462 | INFO     | logger:log_info:32 - Executing recovery step: <function <lambda> at 0x1064db420>
+2024-12-18 12:10:06.462 | INFO     | logger:log_info:32 - Executing recovery step: <function <lambda> at 0x1064db560>
+2024-12-18 12:10:08.467 | ERROR    | logger:log_error:35 - All recovery attempts failed. Manual intervention required.
+2024-12-18 12:10:08.468 | ERROR    | logger:log_error:35 - Error encountered: Recovery failed after 3 attempts.
+2024-12-18 12:10:08.472 | INFO     | logger:log_info:32 - State successfully saved.
+2024-12-18 12:10:08.472 | INFO     | logger:log_info:32 - State updated: test_key = initial_state
+2024-12-18 12:10:08.472 | ERROR    | logger:log_error:35 - Test failed: Test error for logging
+2024-12-18 12:10:08.473 | INFO     | logger:log_info:32 - State successfully saved.
+2024-12-18 12:10:08.473 | INFO     | logger:log_info:32 - State updated: test_key = initial_state
+2024-12-18 12:10:08.473 | INFO     | logger:log_info:32 - State successfully saved.
+2024-12-18 12:10:08.473 | INFO     | logger:log_info:32 - State updated: test_key = updated_state
+2024-12-18 12:11:54.698 | INFO     | logger:log_info:32 - All required libraries are installed successfully.
+2024-12-18 12:11:54.700 | INFO     | logger:log_info:32 - Initializing test environment manager.
+2024-12-18 12:11:54.701 | INFO     | logger:log_info:32 - Logger is initialized.
+2024-12-18 12:11:54.701 | INFO     | logger:log_info:32 - Attempt 1 for command.
+2024-12-18 12:11:54.701 | ERROR    | logger:log_error:35 - Attempt 1 failed: Simulated ValueError for testing.
+2024-12-18 12:11:54.701 | INFO     | logger:log_info:32 - Executing recovery step: <function <lambda> at 0x102baf600>
+2024-12-18 12:11:54.701 | INFO     | logger:log_info:32 - Executing recovery step: <function <lambda> at 0x102baf420>
+2024-12-18 12:11:54.701 | INFO     | logger:log_info:32 - Executing recovery step: <function <lambda> at 0x102baf560>
+2024-12-18 12:11:56.706 | INFO     | logger:log_info:32 - Attempt 2 for command.
+2024-12-18 12:11:56.707 | ERROR    | logger:log_error:35 - Attempt 2 failed: Simulated ValueError for testing.
+2024-12-18 12:11:56.707 | INFO     | logger:log_info:32 - Executing recovery step: <function <lambda> at 0x102baf600>
+2024-12-18 12:11:56.707 | INFO     | logger:log_info:32 - Executing recovery step: <function <lambda> at 0x102baf420>
+2024-12-18 12:11:56.707 | INFO     | logger:log_info:32 - Executing recovery step: <function <lambda> at 0x102baf560>
+2024-12-18 12:11:58.708 | INFO     | logger:log_info:32 - Attempt 3 for command.
+2024-12-18 12:11:58.709 | ERROR    | logger:log_error:35 - Attempt 3 failed: Simulated ValueError for testing.
+2024-12-18 12:11:58.709 | INFO     | logger:log_info:32 - Executing recovery step: <function <lambda> at 0x102baf600>
+2024-12-18 12:11:58.709 | INFO     | logger:log_info:32 - Executing recovery step: <function <lambda> at 0x102baf420>
+2024-12-18 12:11:58.709 | INFO     | logger:log_info:32 - Executing recovery step: <function <lambda> at 0x102baf560>
+2024-12-18 12:12:00.714 | ERROR    | logger:log_error:35 - All recovery attempts failed. Manual intervention required.
+2024-12-18 12:12:00.715 | ERROR    | logger:log_error:35 - Error encountered: Recovery failed after 3 attempts.
+2024-12-18 12:12:00.719 | INFO     | logger:log_info:32 - State successfully saved.
+2024-12-18 12:12:00.719 | INFO     | logger:log_info:32 - State updated: test_key = initial_state
+2024-12-18 12:12:00.719 | ERROR    | logger:log_error:35 - Test failed: Test error for logging
+2024-12-18 12:12:00.720 | INFO     | logger:log_info:32 - State successfully saved.
+2024-12-18 12:12:00.720 | INFO     | logger:log_info:32 - State updated: test_key = initial_state
+2024-12-18 12:12:00.720 | INFO     | logger:log_info:32 - State successfully saved.
+2024-12-18 12:12:00.720 | INFO     | logger:log_info:32 - State updated: test_key = updated_state
+2024-12-18 12:13:09.068 | INFO     | logger:log_info:34 - All required libraries are installed successfully.
+2024-12-18 12:13:09.069 | INFO     | logger:log_info:34 - Initializing test environment manager.
+2024-12-18 12:13:09.070 | INFO     | logger:log_info:34 - Logger is initialized.
+2024-12-18 12:13:09.070 | INFO     | logger:log_info:34 - Attempt 1 for command.
+2024-12-18 12:13:09.070 | ERROR    | logger:log_error:37 - Attempt 1 failed: Simulated ValueError for testing.
+2024-12-18 12:13:09.070 | INFO     | logger:log_info:34 - Executing recovery step: <function <lambda> at 0x104bdf600>
+2024-12-18 12:13:09.070 | INFO     | logger:log_info:34 - Executing recovery step: <function <lambda> at 0x104bdf420>
+2024-12-18 12:13:09.070 | INFO     | logger:log_info:34 - Executing recovery step: <function <lambda> at 0x104bdf560>
+2024-12-18 12:13:11.075 | INFO     | logger:log_info:34 - Attempt 2 for command.
+2024-12-18 12:13:11.075 | ERROR    | logger:log_error:37 - Attempt 2 failed: Simulated ValueError for testing.
+2024-12-18 12:13:11.076 | INFO     | logger:log_info:34 - Executing recovery step: <function <lambda> at 0x104bdf600>
+2024-12-18 12:13:11.076 | INFO     | logger:log_info:34 - Executing recovery step: <function <lambda> at 0x104bdf420>
+2024-12-18 12:13:11.076 | INFO     | logger:log_info:34 - Executing recovery step: <function <lambda> at 0x104bdf560>
+2024-12-18 12:13:13.081 | INFO     | logger:log_info:34 - Attempt 3 for command.
+2024-12-18 12:13:13.082 | ERROR    | logger:log_error:37 - Attempt 3 failed: Simulated ValueError for testing.
+2024-12-18 12:13:13.082 | INFO     | logger:log_info:34 - Executing recovery step: <function <lambda> at 0x104bdf600>
+2024-12-18 12:13:13.082 | INFO     | logger:log_info:34 - Executing recovery step: <function <lambda> at 0x104bdf420>
+2024-12-18 12:13:13.082 | INFO     | logger:log_info:34 - Executing recovery step: <function <lambda> at 0x104bdf560>
+2024-12-18 12:13:15.086 | ERROR    | logger:log_error:37 - All recovery attempts failed. Manual intervention required.
+2024-12-18 12:13:15.087 | ERROR    | logger:log_error:37 - Error encountered: Recovery failed after 3 attempts.
+2024-12-18 12:13:15.090 | INFO     | logger:log_info:34 - State successfully saved.
+2024-12-18 12:13:15.091 | INFO     | logger:log_info:34 - State updated: test_key = initial_state
+2024-12-18 12:13:15.091 | ERROR    | logger:log_error:37 - Test failed: Test error for logging
+2024-12-18 12:13:15.092 | INFO     | logger:log_info:34 - State successfully saved.
+2024-12-18 12:13:15.092 | INFO     | logger:log_info:34 - State updated: test_key = initial_state
+2024-12-18 12:13:15.092 | INFO     | logger:log_info:34 - State successfully saved.
+2024-12-18 12:13:15.092 | INFO     | logger:log_info:34 - State updated: test_key = updated_state
+2024-12-18 12:14:26.059 | INFO     | logger:log_info:34 - All required libraries are installed successfully.
+2024-12-18 12:14:26.061 | INFO     | logger:log_info:34 - Logger is initialized.
+2024-12-18 12:14:26.061 | INFO     | logger:log_info:34 - Attempt 1 for command.
+2024-12-18 12:14:26.061 | ERROR    | logger:log_error:37 - Attempt 1 failed: Simulated ValueError for testing.
+2024-12-18 12:14:26.062 | INFO     | logger:log_info:34 - Executing recovery step: <function <lambda> at 0x10481b600>
+2024-12-18 12:14:26.062 | INFO     | logger:log_info:34 - Executing recovery step: <function <lambda> at 0x10481b420>
+2024-12-18 12:14:26.062 | INFO     | logger:log_info:34 - Executing recovery step: <function <lambda> at 0x10481b560>
+2024-12-18 12:14:28.067 | INFO     | logger:log_info:34 - Attempt 2 for command.
+2024-12-18 12:14:28.067 | ERROR    | logger:log_error:37 - Attempt 2 failed: Simulated ValueError for testing.
+2024-12-18 12:14:28.067 | INFO     | logger:log_info:34 - Executing recovery step: <function <lambda> at 0x10481b600>
+2024-12-18 12:14:28.068 | INFO     | logger:log_info:34 - Executing recovery step: <function <lambda> at 0x10481b420>
+2024-12-18 12:14:28.068 | INFO     | logger:log_info:34 - Executing recovery step: <function <lambda> at 0x10481b560>
+2024-12-18 12:14:30.069 | INFO     | logger:log_info:34 - Attempt 3 for command.
+2024-12-18 12:14:30.070 | ERROR    | logger:log_error:37 - Attempt 3 failed: Simulated ValueError for testing.
+2024-12-18 12:14:30.070 | INFO     | logger:log_info:34 - Executing recovery step: <function <lambda> at 0x10481b600>
+2024-12-18 12:14:30.070 | INFO     | logger:log_info:34 - Executing recovery step: <function <lambda> at 0x10481b420>
+2024-12-18 12:14:30.070 | INFO     | logger:log_info:34 - Executing recovery step: <function <lambda> at 0x10481b560>
+2024-12-18 12:14:32.076 | ERROR    | logger:log_error:37 - All recovery attempts failed. Manual intervention required.
+2024-12-18 12:14:32.076 | ERROR    | logger:log_error:37 - Error encountered: Recovery failed after 3 attempts.
+2024-12-18 12:14:32.080 | INFO     | logger:log_info:34 - State successfully saved.
+2024-12-18 12:14:32.080 | INFO     | logger:log_info:34 - State updated: test_key = initial_state
+2024-12-18 12:14:32.080 | ERROR    | logger:log_error:37 - Test failed: Test error for logging
+2024-12-18 12:14:32.081 | INFO     | logger:log_info:34 - State successfully saved.
+2024-12-18 12:14:32.081 | INFO     | logger:log_info:34 - State updated: test_key = initial_state
+2024-12-18 12:14:32.081 | INFO     | logger:log_info:34 - State successfully saved.
+2024-12-18 12:14:32.081 | INFO     | logger:log_info:34 - State updated: test_key = updated_state
+2024-12-18 12:20:23.849 | INFO     | logger:log_info:34 - Logger is initialized.
+2024-12-18 12:20:23.850 | INFO     | logger:log_info:34 - Attempt 1 for command.
+2024-12-18 12:20:23.850 | ERROR    | logger:log_error:37 - Attempt 1 failed: Simulated ValueError for testing.
+2024-12-18 12:20:23.850 | INFO     | logger:log_info:34 - Executing recovery step: <function <lambda> at 0x10350c720>
+2024-12-18 12:20:23.850 | INFO     | logger:log_info:34 - Executing recovery step: <function <lambda> at 0x10350c4a0>
+2024-12-18 12:20:23.850 | INFO     | logger:log_info:34 - Executing recovery step: <function <lambda> at 0x10350c680>
+2024-12-18 12:20:25.855 | INFO     | logger:log_info:34 - Attempt 2 for command.
+2024-12-18 12:20:25.855 | ERROR    | logger:log_error:37 - Attempt 2 failed: Simulated ValueError for testing.
+2024-12-18 12:20:25.855 | INFO     | logger:log_info:34 - Executing recovery step: <function <lambda> at 0x10350c720>
+2024-12-18 12:20:25.855 | INFO     | logger:log_info:34 - Executing recovery step: <function <lambda> at 0x10350c4a0>
+2024-12-18 12:20:25.855 | INFO     | logger:log_info:34 - Executing recovery step: <function <lambda> at 0x10350c680>
+2024-12-18 12:20:27.856 | INFO     | logger:log_info:34 - Attempt 3 for command.
+2024-12-18 12:20:27.856 | ERROR    | logger:log_error:37 - Attempt 3 failed: Simulated ValueError for testing.
+2024-12-18 12:20:27.856 | INFO     | logger:log_info:34 - Executing recovery step: <function <lambda> at 0x10350c720>
+2024-12-18 12:20:27.856 | INFO     | logger:log_info:34 - Executing recovery step: <function <lambda> at 0x10350c4a0>
+2024-12-18 12:20:27.857 | INFO     | logger:log_info:34 - Executing recovery step: <function <lambda> at 0x10350c680>
+2024-12-18 12:20:29.861 | ERROR    | logger:log_error:37 - All recovery attempts failed. Manual intervention required.
+2024-12-18 12:20:29.861 | ERROR    | logger:log_error:37 - Error encountered: Recovery failed after 3 attempts.
+2024-12-18 12:20:29.865 | INFO     | logger:log_info:34 - State successfully saved.
+2024-12-18 12:20:29.866 | INFO     | logger:log_info:34 - State updated: test_key = initial_state
+2024-12-18 12:20:29.866 | ERROR    | logger:log_error:37 - Test failed: Test error for logging
+2024-12-18 12:20:29.866 | INFO     | logger:log_info:34 - State successfully saved.
+2024-12-18 12:20:29.867 | INFO     | logger:log_info:34 - State updated: test_key = initial_state
+2024-12-18 12:20:29.867 | INFO     | logger:log_info:34 - State successfully saved.
+2024-12-18 12:20:29.867 | INFO     | logger:log_info:34 - State updated: test_key = updated_state
+2024-12-18 12:20:29.868 | INFO     | logger:log_info:34 - State successfully saved.
+2024-12-18 12:20:29.868 | INFO     | logger:log_info:34 - State updated: test_key = initial_state
+2024-12-18 12:20:29.868 | ERROR    | logger:log_error:37 - Test failed: Test error for logging
+2024-12-18 12:20:29.868 | INFO     | logger:log_info:34 - State successfully saved.
+2024-12-18 12:20:29.868 | INFO     | logger:log_info:34 - State updated: test_key = initial_state
+2024-12-18 12:20:29.868 | INFO     | logger:log_info:34 - State successfully saved.
+2024-12-18 12:20:29.868 | INFO     | logger:log_info:34 - State updated: test_key = updated_state
+2024-12-18 12:22:24.443 | INFO     | logger:log_info:32 - Logger is initialized.
+2024-12-18 12:22:24.443 | INFO     | logger:log_info:32 - Attempt 1 for command.
+2024-12-18 12:22:24.443 | ERROR    | logger:log_error:35 - Attempt 1 failed: Simulated ValueError for testing.
+2024-12-18 12:22:24.443 | INFO     | logger:log_info:32 - Executing recovery step: <function <lambda> at 0x1054bc5e0>
+2024-12-18 12:22:24.443 | INFO     | logger:log_info:32 - Executing recovery step: <function <lambda> at 0x1054bc4a0>
+2024-12-18 12:22:24.443 | INFO     | logger:log_info:32 - Executing recovery step: <function <lambda> at 0x1054bc680>
+2024-12-18 12:22:26.448 | INFO     | logger:log_info:32 - Attempt 2 for command.
+2024-12-18 12:22:26.448 | ERROR    | logger:log_error:35 - Attempt 2 failed: Simulated ValueError for testing.
+2024-12-18 12:22:26.449 | INFO     | logger:log_info:32 - Executing recovery step: <function <lambda> at 0x1054bc5e0>
+2024-12-18 12:22:26.449 | INFO     | logger:log_info:32 - Executing recovery step: <function <lambda> at 0x1054bc4a0>
+2024-12-18 12:22:26.449 | INFO     | logger:log_info:32 - Executing recovery step: <function <lambda> at 0x1054bc680>
+2024-12-18 12:22:28.454 | INFO     | logger:log_info:32 - Attempt 3 for command.
+2024-12-18 12:22:28.455 | ERROR    | logger:log_error:35 - Attempt 3 failed: Simulated ValueError for testing.
+2024-12-18 12:22:28.455 | INFO     | logger:log_info:32 - Executing recovery step: <function <lambda> at 0x1054bc5e0>
+2024-12-18 12:22:28.455 | INFO     | logger:log_info:32 - Executing recovery step: <function <lambda> at 0x1054bc4a0>
+2024-12-18 12:22:28.455 | INFO     | logger:log_info:32 - Executing recovery step: <function <lambda> at 0x1054bc680>
+2024-12-18 12:22:30.458 | ERROR    | logger:log_error:35 - All recovery attempts failed. Manual intervention required.
+2024-12-18 12:22:30.459 | ERROR    | logger:log_error:35 - Error encountered: Recovery failed after 3 attempts.
+2024-12-18 12:22:30.463 | INFO     | logger:log_info:32 - State successfully saved.
+2024-12-18 12:22:30.464 | INFO     | logger:log_info:32 - State updated: test_key = initial_state
+2024-12-18 12:22:30.464 | ERROR    | logger:log_error:35 - Test failed: Test error for logging
+2024-12-18 12:22:30.465 | INFO     | logger:log_info:32 - State successfully saved.
+2024-12-18 12:22:30.465 | INFO     | logger:log_info:32 - State updated: test_key = initial_state
+2024-12-18 12:22:30.465 | INFO     | logger:log_info:32 - State successfully saved.
+2024-12-18 12:22:30.465 | INFO     | logger:log_info:32 - State updated: test_key = updated_state
+2024-12-18 12:22:30.466 | INFO     | logger:log_info:32 - State successfully saved.
+2024-12-18 12:22:30.466 | INFO     | logger:log_info:32 - State updated: test_key = initial_state
+2024-12-18 12:22:30.466 | ERROR    | logger:log_error:35 - Test failed: Test error for logging
+2024-12-18 12:22:30.466 | INFO     | logger:log_info:32 - State successfully saved.
+2024-12-18 12:22:30.466 | INFO     | logger:log_info:32 - State updated: test_key = initial_state
+2024-12-18 12:22:30.467 | INFO     | logger:log_info:32 - State successfully saved.
+2024-12-18 12:22:30.467 | INFO     | logger:log_info:32 - State updated: test_key = updated_state
+2024-12-18 12:26:33.175 | INFO     | logger:log_info:34 - Logger is initialized.
+2024-12-18 12:26:33.175 | INFO     | logger:log_info:34 - Attempt 1 for command.
+2024-12-18 12:26:33.175 | ERROR    | logger:log_error:37 - Attempt 1 failed: Simulated ValueError for testing.
+2024-12-18 12:26:33.175 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:26:33.175 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:26:33.175 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:26:35.180 | INFO     | logger:log_info:34 - Attempt 2 for command.
+2024-12-18 12:26:35.180 | ERROR    | logger:log_error:37 - Attempt 2 failed: Simulated ValueError for testing.
+2024-12-18 12:26:35.181 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:26:35.181 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:26:35.181 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:26:37.182 | INFO     | logger:log_info:34 - Attempt 3 for command.
+2024-12-18 12:26:37.183 | ERROR    | logger:log_error:37 - Attempt 3 failed: Simulated ValueError for testing.
+2024-12-18 12:26:37.183 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:26:37.183 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:26:37.183 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:26:39.188 | ERROR    | logger:log_error:37 - All recovery attempts failed. Manual intervention required.
+2024-12-18 12:26:39.189 | ERROR    | logger:log_error:37 - Error encountered: Recovery failed after 3 attempts.
+2024-12-18 12:26:39.192 | INFO     | logger:log_info:34 - State successfully saved.
+2024-12-18 12:26:39.192 | INFO     | logger:log_info:34 - State updated: test_key = initial_state
+2024-12-18 12:26:39.192 | ERROR    | logger:log_error:37 - Test failed: Test error for logging
+2024-12-18 12:26:39.193 | INFO     | logger:log_info:34 - State successfully saved.
+2024-12-18 12:26:39.193 | INFO     | logger:log_info:34 - State updated: test_key = initial_state
+2024-12-18 12:26:39.193 | INFO     | logger:log_info:34 - State successfully saved.
+2024-12-18 12:26:39.193 | INFO     | logger:log_info:34 - State updated: test_key = updated_state
+2024-12-18 12:26:39.194 | INFO     | logger:log_info:34 - State successfully saved.
+2024-12-18 12:26:39.194 | INFO     | logger:log_info:34 - State updated: test_key = initial_state
+2024-12-18 12:26:39.194 | ERROR    | logger:log_error:37 - Test failed: Test error for logging
+2024-12-18 12:26:39.194 | INFO     | logger:log_info:34 - State successfully saved.
+2024-12-18 12:26:39.194 | INFO     | logger:log_info:34 - State updated: test_key = initial_state
+2024-12-18 12:26:39.194 | INFO     | logger:log_info:34 - State successfully saved.
+2024-12-18 12:26:39.194 | INFO     | logger:log_info:34 - State updated: test_key = updated_state
+2024-12-18 12:30:38.480 | INFO     | logger:log_info:34 - Logger is initialized.
+2024-12-18 12:30:38.481 | INFO     | logger:log_info:34 - Attempt 1 for command.
+2024-12-18 12:30:38.481 | ERROR    | logger:log_error:37 - Attempt 1 failed: Simulated ValueError for testing.
+2024-12-18 12:30:38.481 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:30:38.481 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:30:38.481 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:30:40.486 | INFO     | logger:log_info:34 - Attempt 2 for command.
+2024-12-18 12:30:40.486 | ERROR    | logger:log_error:37 - Attempt 2 failed: Simulated ValueError for testing.
+2024-12-18 12:30:40.486 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:30:40.487 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:30:40.487 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:30:42.490 | INFO     | logger:log_info:34 - Attempt 3 for command.
+2024-12-18 12:30:42.490 | ERROR    | logger:log_error:37 - Attempt 3 failed: Simulated ValueError for testing.
+2024-12-18 12:30:42.490 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:30:42.491 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:30:42.491 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:30:44.495 | ERROR    | logger:log_error:37 - All recovery attempts failed. Manual intervention required.
+2024-12-18 12:30:44.496 | ERROR    | logger:log_error:37 - Error encountered: Recovery failed after 3 attempts.
+2024-12-18 12:30:44.500 | INFO     | logger:log_info:34 - State successfully saved.
+2024-12-18 12:30:44.500 | INFO     | logger:log_info:34 - State updated: test_key = initial_state
+2024-12-18 12:30:44.500 | ERROR    | logger:log_error:37 - Test failed: Test error for logging
+2024-12-18 12:30:44.501 | INFO     | logger:log_info:34 - State successfully saved.
+2024-12-18 12:30:44.501 | INFO     | logger:log_info:34 - State updated: test_key = initial_state
+2024-12-18 12:30:44.501 | INFO     | logger:log_info:34 - State successfully saved.
+2024-12-18 12:30:44.501 | INFO     | logger:log_info:34 - State updated: test_key = updated_state
+2024-12-18 12:30:44.501 | INFO     | logger:log_info:34 - State successfully saved.
+2024-12-18 12:30:44.501 | INFO     | logger:log_info:34 - State updated: test_key = initial_state
+2024-12-18 12:30:44.501 | ERROR    | logger:log_error:37 - Test failed: Test error for logging
+2024-12-18 12:30:44.502 | INFO     | logger:log_info:34 - State successfully saved.
+2024-12-18 12:30:44.502 | INFO     | logger:log_info:34 - State updated: test_key = initial_state
+2024-12-18 12:30:44.502 | INFO     | logger:log_info:34 - State successfully saved.
+2024-12-18 12:30:44.502 | INFO     | logger:log_info:34 - State updated: test_key = updated_state
+2024-12-18 12:31:07.076 | INFO     | logger:log_info:34 - Logger is initialized.
+2024-12-18 12:31:07.076 | INFO     | logger:log_info:34 - Attempt 1 for command.
+2024-12-18 12:31:07.076 | ERROR    | logger:log_error:37 - Attempt 1 failed: Simulated ValueError for testing.
+2024-12-18 12:31:07.077 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:31:07.077 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:31:07.077 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:31:09.082 | INFO     | logger:log_info:34 - Attempt 2 for command.
+2024-12-18 12:31:09.082 | ERROR    | logger:log_error:37 - Attempt 2 failed: Simulated ValueError for testing.
+2024-12-18 12:31:09.083 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:31:09.083 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:31:09.083 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:31:11.088 | INFO     | logger:log_info:34 - Attempt 3 for command.
+2024-12-18 12:31:11.089 | ERROR    | logger:log_error:37 - Attempt 3 failed: Simulated ValueError for testing.
+2024-12-18 12:31:11.089 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:31:11.089 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:31:11.089 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:31:13.094 | ERROR    | logger:log_error:37 - All recovery attempts failed. Manual intervention required.
+2024-12-18 12:31:13.095 | ERROR    | logger:log_error:37 - Error encountered: Recovery failed after 3 attempts.
+2024-12-18 12:31:13.098 | INFO     | logger:log_info:34 - State successfully saved.
+2024-12-18 12:31:13.098 | INFO     | logger:log_info:34 - State updated: test_key = initial_state
+2024-12-18 12:31:13.098 | ERROR    | logger:log_error:37 - Test failed: Test error for logging
+2024-12-18 12:31:13.099 | INFO     | logger:log_info:34 - State successfully saved.
+2024-12-18 12:31:13.099 | INFO     | logger:log_info:34 - State updated: test_key = initial_state
+2024-12-18 12:31:13.099 | INFO     | logger:log_info:34 - State successfully saved.
+2024-12-18 12:31:13.099 | INFO     | logger:log_info:34 - State updated: test_key = updated_state
+2024-12-18 12:31:13.100 | INFO     | logger:log_info:34 - State successfully saved.
+2024-12-18 12:31:13.100 | INFO     | logger:log_info:34 - State updated: test_key = initial_state
+2024-12-18 12:31:13.100 | ERROR    | logger:log_error:37 - Test failed: Test error for logging
+2024-12-18 12:31:13.100 | INFO     | logger:log_info:34 - State successfully saved.
+2024-12-18 12:31:13.101 | INFO     | logger:log_info:34 - State updated: test_key = initial_state
+2024-12-18 12:31:13.101 | INFO     | logger:log_info:34 - State successfully saved.
+2024-12-18 12:31:13.101 | INFO     | logger:log_info:34 - State updated: test_key = updated_state
+2024-12-18 12:32:49.143 | INFO     | logger:log_info:34 - Logger is initialized.
+2024-12-18 12:32:49.143 | INFO     | logger:log_info:34 - Attempt 1 for command.
+2024-12-18 12:32:49.144 | ERROR    | logger:log_error:37 - Attempt 1 failed: Simulated ValueError for testing.
+2024-12-18 12:32:49.144 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:32:49.144 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:32:49.144 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:32:51.149 | INFO     | logger:log_info:34 - Attempt 2 for command.
+2024-12-18 12:32:51.149 | ERROR    | logger:log_error:37 - Attempt 2 failed: Simulated ValueError for testing.
+2024-12-18 12:32:51.150 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:32:51.150 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:32:51.150 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:32:53.155 | INFO     | logger:log_info:34 - Attempt 3 for command.
+2024-12-18 12:32:53.156 | ERROR    | logger:log_error:37 - Attempt 3 failed: Simulated ValueError for testing.
+2024-12-18 12:32:53.156 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:32:53.156 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:32:53.156 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:32:55.161 | ERROR    | logger:log_error:37 - All recovery attempts failed. Manual intervention required.
+2024-12-18 12:32:55.162 | ERROR    | logger:log_error:37 - Error encountered: Recovery failed after 3 attempts.
+2024-12-18 12:32:55.166 | INFO     | logger:log_info:34 - State successfully saved.
+2024-12-18 12:32:55.166 | INFO     | logger:log_info:34 - State updated: test_key = initial_state
+2024-12-18 12:32:55.166 | ERROR    | logger:log_error:37 - Test failed: Test error for logging
+2024-12-18 12:32:55.167 | INFO     | logger:log_info:34 - State successfully saved.
+2024-12-18 12:32:55.167 | INFO     | logger:log_info:34 - State updated: test_key = initial_state
+2024-12-18 12:32:55.167 | INFO     | logger:log_info:34 - State successfully saved.
+2024-12-18 12:32:55.167 | INFO     | logger:log_info:34 - State updated: test_key = updated_state
+2024-12-18 12:32:55.167 | INFO     | logger:log_info:34 - State successfully saved.
+2024-12-18 12:32:55.168 | INFO     | logger:log_info:34 - State updated: test_key = initial_state
+2024-12-18 12:32:55.168 | ERROR    | logger:log_error:37 - Test failed: Test error for logging
+2024-12-18 12:32:55.168 | INFO     | logger:log_info:34 - State successfully saved.
+2024-12-18 12:32:55.168 | INFO     | logger:log_info:34 - State updated: test_key = initial_state
+2024-12-18 12:32:55.168 | INFO     | logger:log_info:34 - State successfully saved.
+2024-12-18 12:32:55.168 | INFO     | logger:log_info:34 - State updated: test_key = updated_state
+2024-12-18 12:39:07.840 | INFO     | logger:log_info:34 - Logger is initialized.
+2024-12-18 12:39:07.840 | INFO     | logger:log_info:34 - Attempt 1 for command.
+2024-12-18 12:39:07.840 | ERROR    | logger:log_error:37 - Attempt 1 failed: Simulated ValueError for testing.
+2024-12-18 12:39:07.840 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:39:07.840 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:39:07.840 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:39:09.845 | INFO     | logger:log_info:34 - Attempt 2 for command.
+2024-12-18 12:39:09.846 | ERROR    | logger:log_error:37 - Attempt 2 failed: Simulated ValueError for testing.
+2024-12-18 12:39:09.846 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:39:09.846 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:39:09.847 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:39:11.852 | INFO     | logger:log_info:34 - Attempt 3 for command.
+2024-12-18 12:39:11.852 | ERROR    | logger:log_error:37 - Attempt 3 failed: Simulated ValueError for testing.
+2024-12-18 12:39:11.852 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:39:11.852 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:39:11.853 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:39:13.857 | ERROR    | logger:log_error:37 - All recovery attempts failed. Manual intervention required.
+2024-12-18 12:39:13.858 | ERROR    | logger:log_error:37 - Error encountered: Recovery failed after 3 attempts.
+2024-12-18 12:39:13.862 | INFO     | logger:log_info:34 - State successfully saved.
+2024-12-18 12:39:13.862 | INFO     | logger:log_info:34 - State updated: test_key = initial_state
+2024-12-18 12:39:13.862 | ERROR    | logger:log_error:37 - Test failed: Test error for logging
+2024-12-18 12:39:13.863 | INFO     | logger:log_info:34 - State successfully saved.
+2024-12-18 12:39:13.863 | INFO     | logger:log_info:34 - State updated: test_key = initial_state
+2024-12-18 12:39:13.863 | INFO     | logger:log_info:34 - State successfully saved.
+2024-12-18 12:39:13.863 | INFO     | logger:log_info:34 - State updated: test_key = updated_state
+2024-12-18 12:39:13.864 | INFO     | logger:log_info:34 - State successfully saved.
+2024-12-18 12:39:13.864 | INFO     | logger:log_info:34 - State updated: test_key = initial_state
+2024-12-18 12:39:13.864 | ERROR    | logger:log_error:37 - Test failed: Test error for logging
+2024-12-18 12:39:13.865 | INFO     | logger:log_info:34 - State successfully saved.
+2024-12-18 12:39:13.865 | INFO     | logger:log_info:34 - State updated: test_key = initial_state
+2024-12-18 12:39:13.865 | INFO     | logger:log_info:34 - State successfully saved.
+2024-12-18 12:39:13.865 | INFO     | logger:log_info:34 - State updated: test_key = updated_state
+2024-12-18 12:45:31.885 | INFO     | logger:log_info:34 - Logger is initialized.
+2024-12-18 12:45:31.885 | INFO     | logger:log_info:34 - Attempt 1 for command.
+2024-12-18 12:45:31.885 | ERROR    | logger:log_error:37 - Attempt 1 failed: Simulated ValueError for testing.
+2024-12-18 12:45:31.885 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:45:31.885 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:45:31.885 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:45:33.891 | INFO     | logger:log_info:34 - Attempt 2 for command.
+2024-12-18 12:45:33.891 | ERROR    | logger:log_error:37 - Attempt 2 failed: Simulated ValueError for testing.
+2024-12-18 12:45:33.891 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:45:33.892 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:45:33.893 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:45:35.899 | INFO     | logger:log_info:34 - Attempt 3 for command.
+2024-12-18 12:45:35.900 | ERROR    | logger:log_error:37 - Attempt 3 failed: Simulated ValueError for testing.
+2024-12-18 12:45:35.900 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:45:35.900 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:45:35.900 | INFO     | logger:log_info:34 - Executing recovery step: <lambda>
+2024-12-18 12:45:37.905 | ERROR    | logger:log_error:37 - All recovery attempts failed. Manual intervention required.
+2024-12-18 12:45:37.906 | ERROR    | logger:log_error:37 - Error encountered: Recovery failed after 3 attempts.
+2024-12-18 12:45:37.911 | INFO     | logger:log_info:34 - State successfully saved.
+2024-12-18 12:45:37.911 | INFO     | logger:log_info:34 - State updated: test_key = initial_state
+2024-12-18 12:45:37.911 | ERROR    | logger:log_error:37 - Test failed: Test error for logging
+2024-12-18 12:45:37.912 | INFO     | logger:log_info:34 - State successfully saved.
+2024-12-18 12:45:37.912 | INFO     | logger:log_info:34 - State updated: test_key = initial_state
+2024-12-18 12:45:37.912 | INFO     | logger:log_info:34 - State successfully saved.
+2024-12-18 12:45:37.912 | INFO     | logger:log_info:34 - State updated: test_key = updated_state
+2024-12-18 12:45:37.913 | INFO     | logger:log_info:34 - State successfully saved.
+2024-12-18 12:45:37.913 | INFO     | logger:log_info:34 - State updated: test_key = initial_state
+2024-12-18 12:45:37.913 | ERROR    | logger:log_error:37 - Test failed: Test error for logging
+2024-12-18 12:45:37.913 | INFO     | logger:log_info:34 - State successfully saved.
+2024-12-18 12:45:37.913 | INFO     | logger:log_info:34 - State updated: test_key = initial_state
+2024-12-18 12:45:37.913 | INFO     | logger:log_info:34 - State successfully saved.
+2024-12-18 12:45:37.913 | INFO     | logger:log_info:34 - State updated: test_key = updated_state

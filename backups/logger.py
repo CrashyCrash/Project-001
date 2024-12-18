@@ -1,36 +1,41 @@
+import logging
 from loguru import logger
 
 class Logger:
     """
-    A custom logger class using Loguru for logging.
+    A custom logger class that integrates both Loguru and Python's logging library.
     """
-    _instance = None  # Singleton instance
+    _instance = None
 
     def __new__(cls, log_file="log_output.log"):
         if cls._instance is None:
             cls._instance = super(Logger, cls).__new__(cls)
             cls._instance.log_file = log_file
+            cls._instance.handlers = []  # Added handlers attribute
             cls._instance._setup_logging()
         return cls._instance
 
     def _setup_logging(self):
-        """
-        Configure Loguru to log to a file with rotation and retention policies.
-        """
-        # Configure Loguru to log to a file
+        logger.remove()
         logger.add(self.log_file, rotation="1 MB", retention="10 days", level="DEBUG")
+        self.handlers.append("Loguru Handler")
+
+        logging.basicConfig(
+            level=logging.DEBUG,
+            filename=self.log_file,
+            filemode='a',
+            format="%(asctime)s - %(levelname)s - %(message)s",
+        )
+        self.handlers.append("Python Logging Handler")
 
     def log_info(self, message):
-        """Log an informational message."""
         logger.info(message)
 
     def log_error(self, message):
-        """Log an error message."""
         logger.error(message)
 
     def log_debug(self, message):
-        """Log a debug message."""
         logger.debug(message)
 
-# Global instance of the Logger
+# Global logger instance
 app_logger = Logger()
