@@ -167,3 +167,6 @@
 2024-12-17 23:32:50,490 - MyLogger - INFO - State updated: test_key = initial_state
 2024-12-17 23:32:50,490 - MyLogger - INFO - State successfully saved.
 2024-12-17 23:32:50,490 - MyLogger - INFO - State updated: test_key = updated_state
+2024-12-18 00:12:45,662 - MyLogger - INFO - Python logger initialized.
+2024-12-18 00:13:22,649 - MyLogger - INFO - Python logger initialized.
+2024-12-18 00:13:22,655 - MyLogger - INFO - Initializing Custom Profile...
