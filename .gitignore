@@ -1,0 +1,12 @@
+# Ignore backup folders
+backups/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore virtual environment folder (optional, if not committed intentionally)
+venv/
+
+# Ignore log files
+*.log
