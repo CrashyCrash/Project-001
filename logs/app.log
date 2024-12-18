@@ -170,3 +170,5 @@
 2024-12-18 00:12:45,662 - MyLogger - INFO - Python logger initialized.
 2024-12-18 00:13:22,649 - MyLogger - INFO - Python logger initialized.
 2024-12-18 00:13:22,655 - MyLogger - INFO - Initializing Custom Profile...
+2024-12-18 09:45:44,182 - MyLogger - INFO - Python logger initialized.
+2024-12-18 09:45:44,190 - MyLogger - INFO - This is an informational message from the Logger class.

@@ -688,3 +688,41 @@
 2024-12-18 00:12:45 - INFO - Loguru logger initialized.
 2024-12-18 00:13:22 - INFO - Loguru logger initialized.
 2024-12-18 00:13:22 - INFO - Initializing Custom Profile...
+2024-12-18 09:22:24 - INFO - Loguru logger initialized.
+2024-12-18 09:29:13 - INFO - Loguru logger initialized.
+2024-12-18 09:29:13 - INFO - Loguru logger initialized.
+2024-12-18 09:29:13 - INFO - Loguru logger initialized.
+2024-12-18 09:29:13 - INFO - Attempt 1 for command.
+2024-12-18 09:29:13 - INFO - Attempt 1 for command.
+2024-12-18 09:29:13 - ERROR - Attempt 1 failed: Simulated ValueError for testing.
+2024-12-18 09:29:13 - ERROR - Attempt 1 failed: Simulated ValueError for testing.
+2024-12-18 09:29:13 - INFO - Executing recovery step: <function <lambda> at 0x107182b60>
+2024-12-18 09:29:13 - INFO - Executing recovery step: <function <lambda> at 0x107182b60>
+2024-12-18 09:29:13 - INFO - Executing recovery step: <function <lambda> at 0x107182d40>
+2024-12-18 09:29:13 - INFO - Executing recovery step: <function <lambda> at 0x107182d40>
+2024-12-18 09:29:13 - INFO - Executing recovery step: <function <lambda> at 0x1071822a0>
+2024-12-18 09:29:13 - INFO - Executing recovery step: <function <lambda> at 0x1071822a0>
+2024-12-18 09:29:15 - INFO - Attempt 2 for command.
+2024-12-18 09:29:15 - INFO - Attempt 2 for command.
+2024-12-18 09:29:15 - ERROR - Attempt 2 failed: Simulated ValueError for testing.
+2024-12-18 09:29:15 - ERROR - Attempt 2 failed: Simulated ValueError for testing.
+2024-12-18 09:29:15 - INFO - Executing recovery step: <function <lambda> at 0x107182b60>
+2024-12-18 09:29:15 - INFO - Executing recovery step: <function <lambda> at 0x107182b60>
+2024-12-18 09:29:15 - INFO - Executing recovery step: <function <lambda> at 0x107182d40>
+2024-12-18 09:29:15 - INFO - Executing recovery step: <function <lambda> at 0x107182d40>
+2024-12-18 09:29:15 - INFO - Executing recovery step: <function <lambda> at 0x1071822a0>
+2024-12-18 09:29:15 - INFO - Executing recovery step: <function <lambda> at 0x1071822a0>
+2024-12-18 09:29:17 - INFO - Attempt 3 for command.
+2024-12-18 09:29:17 - INFO - Attempt 3 for command.
+2024-12-18 09:29:17 - ERROR - Attempt 3 failed: Simulated ValueError for testing.
+2024-12-18 09:29:17 - ERROR - Attempt 3 failed: Simulated ValueError for testing.
+2024-12-18 09:29:17 - INFO - Executing recovery step: <function <lambda> at 0x107182b60>
+2024-12-18 09:29:17 - INFO - Executing recovery step: <function <lambda> at 0x107182b60>
+2024-12-18 09:29:17 - INFO - Executing recovery step: <function <lambda> at 0x107182d40>
+2024-12-18 09:29:17 - INFO - Executing recovery step: <function <lambda> at 0x107182d40>
+2024-12-18 09:29:17 - INFO - Executing recovery step: <function <lambda> at 0x1071822a0>
+2024-12-18 09:29:17 - INFO - Executing recovery step: <function <lambda> at 0x1071822a0>
+2024-12-18 09:29:19 - ERROR - All recovery attempts failed. Manual intervention required.
+2024-12-18 09:29:19 - ERROR - All recovery attempts failed. Manual intervention required.
+2024-12-18 09:45:44 - INFO - Loguru logger initialized.
+2024-12-18 09:45:44 - INFO - This is an informational message from the Logger class.

@@ -82,12 +82,13 @@ class Logger:
         self.logger.critical(message)
         logger.critical(message)
 
+
+# Create an instance of Logger
+custom_logger = Logger()
+
+# Expose `app_logger` for direct imports
+app_logger = custom_logger
+
 # Example usage
 if __name__ == "__main__":
-    # Initialize the logger
-
-    # Log various levels of messages
-    app_logger.log_info("This is an informational message.")
-    app_logger.log_warning("This is a warning message.")
-    app_logger.log_error("This is an error message.")
-    app_logger.log_critical("This is a critical error message.")
+    app_logger.log_info("This is an informational message from the Logger class.")

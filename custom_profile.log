@@ -55,3 +55,4 @@
 2024-12-18 09:13:02.761 | INFO     | custom_profile:_main_loop:52 - Received command: echo "##active_line1##"
 2024-12-18 09:13:02.762 | INFO     | custom_profile:_main_loop:52 - Received command: cat /Users/crashair/AI-Software/_Interpreter/Projects/Project-001/___INSTRUCTIONS___/DoThisNext.txt
 2024-12-18 09:13:02.762 | INFO     | custom_profile:_main_loop:52 - Received command: echo "##end_of_execution##"
+2024-12-18 09:46:39.503 | INFO     | custom_profile:_main_loop:55 - Custom profile interrupted by user.

@@ -1,30 +1,22 @@
 
-Prompt for OpenInterpreter:
+Prompt for OpenInterpreter
 
-Please execute the following tasks sequentially to save the current state of my project:
+“Please ensure the following tasks are completed across the provided files (logger.py, state_manager.py, test_env_manager.py) to resolve all logger-related issues and ensure the test scripts function properly:
+	1.	Logger Integration:
+	•	Ensure the logger is correctly initialized and accessible in all files.
+	•	Verify that logger.py contains properly defined methods for logging (log_info, log_error, etc.).
+	•	Update any imports to reference logger correctly.
+	2.	State Manager Compatibility:
+	•	Verify compatibility of state_manager.py with the logger setup.
+	•	Ensure state_manager logs actions correctly using the logger.
+	3.	Test Adjustments:
+	•	Adjust test_env_manager.py (and similar test files) to use the updated logger methods (log_info, log_error).
+	•	Fix the error related to Logger object lacking attributes (e.g., log_info, log_error).
+	4.	Testing Workflow:
+	•	Update the pytest test scripts to correctly call and verify logger actions.
+	•	Ensure there are no hard-coded paths or invalid references across the test files.
+	5.	Debugging Steps:
+	•	If any logger functionality fails, generate detailed error messages for debugging.
+	•	Save logs in a centralized folder and ensure the path is dynamically generated.
 
-1. Add all current project files to Git:
-
-git add .
-git commit -m “Save current project state with verified tests and Loguru setup”
-git push origin main
-
-2. Create a local backup of the `Project-001` directory and save it as `Project-001-backup.tar.gz` in the same folder:
-
-tar -czvf /Users/crashair/AI-Software/_Interpreter/Projects/Project-001/Project-001-backup.tar.gz -C /Users/crashair/AI-Software/_Interpreter/Projects/Project-001 .
-
-3. Export the current Python dependencies to a `requirements.txt` file and update the GitHub repository:
-
-pip freeze > /Users/crashair/AI-Software/_Interpreter/Projects/Project-001/requirements.txt
-git add /Users/crashair/AI-Software/_Interpreter/Projects/Project-001/requirements.txt
-git commit -m “Updated requirements.txt”
-git push origin main
-
-4. Create a JSON snapshot of the current environment:
-
-pip list –format=json > /Users/crashair/AI-Software/_Interpreter/Projects/Project-001/environment_snapshot.json
-git add /Users/crashair/AI-Software/_Interpreter/Projects/Project-001/environment_snapshot.json
-git commit -m “Saved environment snapshot”
-git push origin main
-
-Please ensure each step is executed successfully before proceeding to the next one. Let me know if any step encounters an issue or needs adjustment.
+Make only the necessary changes and ensure the updates work seamlessly with the current project structure. After completing the fixes, re-run all tests to confirm the functionality. Output the updated code for each file and any changes you make for review.”
