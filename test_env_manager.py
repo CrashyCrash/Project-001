@@ -1,7 +1,10 @@
 import unittest
 import os
-from logger import log_error
+from logger import app_logger
 from state_manager import StateManager
+
+# Initialize custom logger
+
 
 class TestEnvironmentManager(unittest.TestCase):
     def setUp(self):
@@ -14,7 +17,7 @@ class TestEnvironmentManager(unittest.TestCase):
         try:
             raise ValueError('Test error for logging')
         except ValueError as e:
-            log_error(str(e))
+            app_logger.log_error(str(e))
             self.assertTrue(os.path.exists('/Users/crashair/AI-Software/_Interpreter/Projects/Project-001/logs/app.log'))
 
     def test_state_update(self):

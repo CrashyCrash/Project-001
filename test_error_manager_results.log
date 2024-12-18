@@ -1,0 +1,7 @@
+2024-12-17 18:10:10,755 - MyLogger - INFO - Python logger initialized.
+2024-12-17 18:10:10.759 | INFO     | logger:_setup_loguru_logger:48 - Loguru logger initialized.
+
+----------------------------------------------------------------------
+Ran 0 tests in 0.000s
+
+NO TESTS RAN

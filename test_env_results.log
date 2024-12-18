@@ -1,0 +1,11 @@
+2024-12-17 20:43:25,225 - MyLogger - INFO - Python logger initialized.
+2024-12-17 20:43:25.228 | INFO     | logger:_setup_loguru_logger:55 - Loguru logger initialized.
+2024-12-17 20:43:25,228 - MyLogger - INFO - All required libraries are installed successfully.
+2024-12-17 20:43:25.228 | INFO     | logger:log_info:62 - All required libraries are installed successfully.
+
+----------------------------------------------------------------------
+Ran 0 tests in 0.000s
+
+NO TESTS RAN
+Flask version: 3.0.0
+Requests version: 2.31.0

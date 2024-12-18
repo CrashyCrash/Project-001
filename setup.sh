@@ -1,32 +1,21 @@
 #!/bin/bash
+echo ##active_line2##
 
-echo "Setting up the environment..."
-
-# Check for Python and Node.js installation
-if ! command -v python3 &>/dev/null; then
-    echo "Python is not installed. Please install it first."
-    exit 1
-fi
-
-if ! command -v node &>/dev/null; then
-    echo "Node.js is not installed. Please install it first."
-    exit 1
-fi
-
-echo "Creating virtual environment..."
+echo ##active_line3##
+# Create and activate a virtual environment
+echo ##active_line4##
 python3 -m venv venv
-source venv/bin/activate
+echo ##active_line5##
+source /Users/crashair/AI-Software/_Interpreter/Projects/Project-001/venv/bin/activate
+echo ##active_line6##
 
-# Ensure requirements.txt exists
-if [ -f "requirements.txt" ]; then
-    echo "Installing Python dependencies..."
+echo ##active_line7##
+# Install project dependencies
+echo ##active_line8##
 pip install -r requirements.txt
-fi
+echo ##active_line9##
 
-# Check for package.json and install npm dependencies if found
-if [ -f "package.json" ]; then
-    echo "Installing npm dependencies..."
-npm install
-fi
-
-echo "Setup complete. Run ./launch.sh to start the program."
+echo ##active_line10##
+# Run the project profile script
+echo ##active_line11##
+interpreter --profile /Users/crashair/AI-Software/_Interpreter/Projects/Project-001/project-001-profile.py

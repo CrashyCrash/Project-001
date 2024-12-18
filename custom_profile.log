@@ -1,0 +1,8 @@
+2024-12-17 17:58:46.111 | INFO     | custom_profile:_setup_loggers:24 - Loguru logger setup complete.
+2024-12-17 17:58:46.111 | INFO     | custom_profile:__init__:14 - Custom profile initialized successfully.
+2024-12-17 17:58:46.111 | INFO     | custom_profile:run:30 - CustomProfile is starting the main tasks.
+2024-12-17 17:59:03.169 | INFO     | custom_profile:_main_loop:48 - Exiting the custom profile.
+2024-12-17 18:01:58.003 | INFO     | __main__:_setup_loggers:24 - Loguru logger setup complete.
+2024-12-17 18:01:58.003 | INFO     | __main__:__init__:14 - Custom profile initialized successfully.
+2024-12-17 18:01:58.003 | INFO     | __main__:run:30 - CustomProfile is starting the main tasks.
+2024-12-17 18:02:05.723 | INFO     | __main__:_main_loop:55 - Custom profile interrupted by user.

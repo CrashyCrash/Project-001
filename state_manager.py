@@ -1,5 +1,10 @@
+
 import json
 import os
+from logger import Logger
+
+# Initialize the logger
+app_logger = Logger()
 
 class StateManager:
     """
@@ -34,10 +39,10 @@ class StateManager:
                 with open(self.state_file, 'r') as f:
                     self.state = json.load(f)
             except json.JSONDecodeError as e:
-                print(f"Error loading state file: {e}. Resetting state.")
+                app_logger.log_error(f"Error loading state file: {e}. Resetting state.")
                 self.state = {}
         else:
-            print("State file not found. Starting with an empty state.")
+            app_logger.log_info("State file not found. Starting with an empty state.")
             self.state = {}
 
     def save_state(self):
@@ -47,9 +52,9 @@ class StateManager:
         try:
             with open(self.state_file, 'w') as f:
                 json.dump(self.state, f, indent=4)
-            print("State successfully saved.")
+            app_logger.log_info("State successfully saved.")
         except Exception as e:
-            print(f"Error saving state: {e}")
+            app_logger.log_error(f"Error saving state: {e}")
 
     def update_state(self, key, value):
         """
@@ -57,7 +62,7 @@ class StateManager:
         """
         self.state[key] = value
         self.save_state()
-        print(f"State updated: {key} = {value}")
+        app_logger.log_info(f"State updated: {key} = {value}")
 
     def get_state(self):
         """
@@ -78,13 +83,13 @@ class StateManager:
         if key in self.state:
             del self.state[key]
             self.save_state()
-            print(f"Deleted key: {key}")
+            app_logger.log_info(f"Deleted key: {key}")
         else:
-            print(f"Key '{key}' not found in state.")
+            app_logger.log_info(f"Key '{key}' not found in state.")
 
 # Example usage
 if __name__ == "__main__":
     state_manager = StateManager()
     state_manager.load_state()
     state_manager.update_state('initialized', True)
-    print("Current state:", state_manager.get_state())
+    app_logger.log_info("Current state:" + str(state_manager.get_state()))

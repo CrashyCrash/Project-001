@@ -1,7 +1,12 @@
+
 import subprocess
-import time
 import shutil
-from loguru import logger
+import time
+import os
+from logger import Logger
+
+# Initialize the logger
+app_logger = Logger()
 
 class ErrorManager:
     def __init__(self):
@@ -32,31 +37,31 @@ class ErrorManager:
     def recovery_loop(self, failing_command, recovery_steps):
         for attempt in range(3):
             try:
-                logger.info(f"Attempt {attempt + 1} for command.")
+                app_logger.log_info(f"Attempt {attempt + 1} for command.")
                 failing_command()
-                logger.info("Command executed successfully.")
+                app_logger.log_info("Command executed successfully.")
                 return
             except Exception as e:
-                logger.error(f"Attempt {attempt + 1} failed: {e}")
+                app_logger.log_error(f"Attempt {attempt + 1} failed: {e}")
 
                 # Apply recovery steps
                 for step in recovery_steps:
                     try:
-                        logger.debug(f"Executing recovery step: {step}")
+                        app_logger.log_info(f"Executing recovery step: {step}")
                         step()
                     except Exception as recovery_error:
-                        logger.error(f"Recovery step failed: {recovery_error}")
+                        app_logger.log_error(f"Recovery step failed: {recovery_error}")
                 time.sleep(2)  # Delay before retrying
 
-        logger.critical("All recovery attempts failed. Manual intervention required.")
+        app_logger.log_error("All recovery attempts failed. Manual intervention required.")
         raise Exception("Recovery failed after 3 attempts.")
 
     def rebuild_cache(self):
-        logger.info("Rebuilding npm cache...")
+        app_logger.log_info("Rebuilding npm cache...")
         subprocess.run(["npm", "cache", "clean", "--force"], check=True)
 
     def reinstall_dependencies(self):
-        logger.info("Reinstalling npm dependencies...")
+        app_logger.log_info("Reinstalling npm dependencies...")
         if os.path.exists("package-lock.json"):
             os.remove("package-lock.json")
         if os.path.exists("node_modules"):
@@ -64,7 +69,7 @@ class ErrorManager:
         subprocess.run(["npm", "install"], check=True)
 
     def check_permissions(self, file_path):
-        logger.info(f"Fixing permissions for: {file_path}")
+        app_logger.log_info(f"Fixing permissions for: {file_path}")
         subprocess.run(["chmod", "u+rw", file_path], check=True)
 
 # Example usage
@@ -73,4 +78,4 @@ if __name__ == '__main__':
     try:
         error_manager.handle_error(lambda: subprocess.run(["npm", "install"], check=True), "missing_package_json")
     except Exception as e:
-        logger.error(e)
+        app_logger.log_error(e)

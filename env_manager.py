@@ -120,7 +120,7 @@ if __name__ == "__main__":
     os.makedirs(os.path.join(base_dir, "logs"), exist_ok=True)
 
     # Initialize Logger and ErrorManager
-    logger = Logger(log_dir=os.path.join(base_dir, "logs"))
+logger = app_logger  # Updated from Logger
     error_manager = ErrorManager(logger)
 
     # Run EnvironmentManager

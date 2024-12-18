@@ -1,0 +1,15 @@
+2024-12-17 20:43:09,551 - MyLogger - INFO - Python logger initialized.
+2024-12-17 20:43:09.556 | INFO     | logger:_setup_loguru_logger:55 - Loguru logger initialized.
+2024-12-17 20:43:09,556 - MyLogger - ERROR - Test error for logging
+2024-12-17 20:43:09.556 | ERROR    | logger:log_error:76 - Test error for logging
+..
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+OK
+State successfully saved.
+State updated: test_key = initial_state
+State successfully saved.
+State updated: test_key = initial_state
+State successfully saved.
+State updated: test_key = updated_state

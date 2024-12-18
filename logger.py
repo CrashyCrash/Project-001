@@ -92,3 +92,4 @@ if __name__ == "__main__":
     app_logger.log_warning("This is a warning message.")
     app_logger.log_error("This is an error message.")
     app_logger.log_critical("This is a critical error message.")
+app_logger = Logger()
