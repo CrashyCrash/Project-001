@@ -1,12 +1,19 @@
-# Ignore backup folders
-backups/
-
-# Ignore compiled Python files
+# Python cache files
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# Ignore virtual environment folder (optional, if not committed intentionally)
+# Virtual environment
 venv/
 
-# Ignore log files
+# Logs
 *.log
+
+# Backups and test results
+backups/
+*.bak
+*.tmp
+
+# Environment files
+.env
