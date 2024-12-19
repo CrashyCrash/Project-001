@@ -1,19 +1,50 @@
-# Python cache files
+# Node.js
+echo ##active_line2##
+node_modules/
+echo ##active_line3##
+package-lock.json
+echo ##active_line4##
+
+echo ##active_line5##
+# Python
+echo ##active_line6##
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Virtual environment
-venv/
-
-# Logs
+echo ##active_line7##
+*.py[cod]
+echo ##active_line8##
 *.log
+echo ##active_line9##
 
-# Backups and test results
-backups/
-*.bak
-*.tmp
+echo ##active_line10##
+# macOS
+echo ##active_line11##
+.DS_Store
+echo ##active_line12##
 
-# Environment files
+echo ##active_line13##
+# Builds
+echo ##active_line14##
+build/
+echo ##active_line15##
+dist/
+echo ##active_line16##
+
+echo ##active_line17##
+# Environment
+echo ##active_line18##
+.venv/
+echo ##active_line19##
 .env
+___INSTRUCTIONS___/
+echo ##active_line2##
+configs/config.txt
+misc/
+misc/
+echo ##active_line2##
+*.log
+echo ##active_line3##
+logs/
+echo ##active_line4##
+!logs/.gitkeep
+echo ##active_line5##
+.DS_Store

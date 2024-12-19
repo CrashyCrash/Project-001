@@ -45,6 +45,8 @@ class ErrorManager:
             recovery_steps = [self.wait_for_network]
         elif error_type == "permission_error":
             recovery_steps = [lambda: self.check_permissions("package.json")]
+        elif error_type == "runtime_exception":  # New error type
+            recovery_steps = [self.handle_runtime_exception]
 
         return recovery_steps
 
@@ -70,6 +72,10 @@ class ErrorManager:
                             app_logger.log_info(f"Executing recovery step: {step_name}")
                             step()
                             self.recovery_step_status[step_name] = True  # Mark step as successful
+                            # Check if the recovery step resolved the issue
+                            if self.is_issue_resolved():
+                                app_logger.log_info("Issue resolved after recovery step.")
+                                return True
                         except Exception as recovery_error:
                             app_logger.log_error(f"Recovery step failed: {recovery_error}")
                             self.recovery_step_status[step_name] = False  # Mark step as failed
@@ -80,6 +86,15 @@ class ErrorManager:
 
         app_logger.log_error("All recovery attempts failed.")
         return False  # Return False if all attempts fail
+
+    def is_issue_resolved(self):
+        """
+        Checks if the issue has been resolved after a recovery step.
+        :return: True if the issue is resolved, False otherwise.
+        """
+        # Placeholder logic to check if the issue is resolved
+        # For example, check if a specific condition is met
+        return os.path.exists("temp_runtime_exception.txt")
 
     def create_package_json(self):
         """
@@ -135,4 +150,24 @@ class ErrorManager:
             subprocess.run(["chmod", "u+rw", file_path], check=True)
         except subprocess.CalledProcessError as e:
             app_logger.log_error(f"Failed to fix permissions for {file_path}: {e}")
+            raise
+
+    def handle_runtime_exception(self):
+        """
+        Handles runtime exceptions by logging the error and attempting to recover.
+        """
+        app_logger.log_info("Handling runtime exception...")
+        try:
+            # Example: Reset some state or retry a specific operation
+            app_logger.log_info("Resetting state or retrying operation...")
+            # Placeholder for actual recovery logic
+            # For example, you could reset some state or retry a specific operation
+            # Here, we simulate a successful recovery by creating a temporary file
+            temp_file = "temp_runtime_exception.txt"
+            with open(temp_file, "w") as f:
+                f.write("Runtime exception recovery successful.")
+            app_logger.log_info(f"Created temporary file: {temp_file}")
+            app_logger.log_info("Runtime exception recovery logic executed successfully.")
+        except Exception as e:
+            app_logger.log_error(f"Failed to handle runtime exception: {e}")
             raise

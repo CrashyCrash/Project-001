@@ -1,0 +1,46 @@
+2024-12-18 15:46:42.555 | INFO     | logger:log_info:25 - Logger is initialized.
+2024-12-18 15:46:42.555 | INFO     | logger:log_info:25 - Attempt 1 to execute the command.
+2024-12-18 15:46:42.555 | ERROR    | logger:log_error:29 - Attempt 1 failed: Simulated ValueError for testing.
+2024-12-18 15:46:42.555 | INFO     | logger:log_info:25 - Executing recovery step: create_package_json
+2024-12-18 15:46:42.555 | INFO     | logger:log_info:25 - package.json already exists. Skipping creation.
+2024-12-18 15:46:42.555 | INFO     | logger:log_info:25 - Executing recovery step: rebuild_cache
+2024-12-18 15:46:42.555 | INFO     | logger:log_info:25 - Rebuilding npm cache...
+Modules preloaded for Open Interpreter. 🚀
+npm warn using --force Recommended protections disabled.
+2024-12-18 15:46:43.002 | INFO     | logger:log_info:25 - Executing recovery step: reinstall_dependencies
+2024-12-18 15:46:43.002 | INFO     | logger:log_info:25 - Reinstalling npm dependencies...
+Modules preloaded for Open Interpreter. 🚀
+
+up to date, audited 1 package in 136ms
+
+found 0 vulnerabilities
+2024-12-18 15:46:43.225 | INFO     | logger:log_info:25 - Retrying...
+2024-12-18 15:46:45.225 | INFO     | logger:log_info:25 - Attempt 2 to execute the command.
+2024-12-18 15:46:45.226 | ERROR    | logger:log_error:29 - Attempt 2 failed: Simulated ValueError for testing.
+2024-12-18 15:46:45.226 | INFO     | logger:log_info:25 - Skipping recovery step: create_package_json (already executed successfully)
+2024-12-18 15:46:45.227 | INFO     | logger:log_info:25 - Skipping recovery step: rebuild_cache (already executed successfully)
+2024-12-18 15:46:45.227 | INFO     | logger:log_info:25 - Skipping recovery step: reinstall_dependencies (already executed successfully)
+2024-12-18 15:46:45.227 | INFO     | logger:log_info:25 - Retrying...
+2024-12-18 15:46:47.230 | INFO     | logger:log_info:25 - Attempt 3 to execute the command.
+2024-12-18 15:46:47.231 | ERROR    | logger:log_error:29 - Attempt 3 failed: Simulated ValueError for testing.
+2024-12-18 15:46:47.231 | INFO     | logger:log_info:25 - Skipping recovery step: create_package_json (already executed successfully)
+2024-12-18 15:46:47.231 | INFO     | logger:log_info:25 - Skipping recovery step: rebuild_cache (already executed successfully)
+2024-12-18 15:46:47.231 | INFO     | logger:log_info:25 - Skipping recovery step: reinstall_dependencies (already executed successfully)
+2024-12-18 15:46:47.231 | INFO     | logger:log_info:25 - Retrying...
+2024-12-18 15:46:49.236 | ERROR    | logger:log_error:29 - All recovery attempts failed.
+2024-12-18 15:46:49.240 | INFO     | logger:log_info:25 - State successfully saved.
+2024-12-18 15:46:49.241 | INFO     | logger:log_info:25 - State updated: test_key = initial_state
+2024-12-18 15:46:49.241 | ERROR    | logger:log_error:29 - Test failed: Test error for logging
+.2024-12-18 15:46:49.242 | INFO     | logger:log_info:25 - State successfully saved.
+2024-12-18 15:46:49.242 | INFO     | logger:log_info:25 - State updated: test_key = updated_state
+.2024-12-18 15:46:49.243 | INFO     | logger:log_info:25 - State successfully saved.
+2024-12-18 15:46:49.244 | INFO     | logger:log_info:25 - State updated: test_key = initial_state
+2024-12-18 15:46:49.244 | ERROR    | logger:log_error:29 - Test failed: Test error for logging
+.2024-12-18 15:46:49.244 | INFO     | logger:log_info:25 - State successfully saved.
+2024-12-18 15:46:49.244 | INFO     | logger:log_info:25 - State updated: test_key = updated_state
+.
+----------------------------------------------------------------------
+Ran 4 tests in 0.007s
+
+OK
+Recovery was successful: False
